@@ -199,9 +199,9 @@ app.get("/api/v1/articles", (req, res) => {
 
 ### 예제
 
-전체 할 일 조회 → `GET /api/v1/todos`
-단일 할 일 조회 → `GET /api/v1/todos/:id`
-할 일 생성 => `POST /api/v1/todos`
-단일 할 일 수정 → `PATCH /api/v1/todos/:id`
-단일 할 일 삭제 → `DELETE /api/v1/todos/:id`
-전체 할 일 삭제 → `DELETE /api/v1/todos`
+전체 할 일 조회 → `GET /api/v1/todos`  
+단일 할 일 조회 → `GET /api/v1/todos/:id`  
+할 일 생성 => `POST /api/v1/todos`  
+단일 할 일 수정 → `PATCH /api/v1/todos/:id`  
+단일 할 일 삭제 → `DELETE /api/v1/todos/:id`  
+전체 할 일 삭제 → `DELETE /api/v1/todos`  
