@@ -1,5 +1,3 @@
-# vitual box 환경 세팅
-
 ## Virtual Box 환경 세팅
 
 ## 필요성
