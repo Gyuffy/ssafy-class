@@ -32,17 +32,17 @@
 
 - `ros2 run rqt_console rqt_console`
 
-![image.png](240407%20ROS%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20ROS%20tool%201ce6637ce9a180cbb19ecbd5cc198abd/image.png)
+![image.png](image.png)
 
 → `ros2 run turtlesim turtlesim_node` 해보기
 
-![image.png](240407%20ROS%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20ROS%20tool%201ce6637ce9a180cbb19ecbd5cc198abd/image%201.png)
+![image.png](image%201.png)
 
 실행되고 있는 노드의 정보가 표시됨 : `info` 
 
 → 거북이를 맵 끝까지 이동시켜보기
 
-![image.png](240407%20ROS%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20ROS%20tool%201ce6637ce9a180cbb19ecbd5cc198abd/image%202.png)
+![image.png](image%202.png)
 
 Warning 메시지의 발생 : `warning`
 
@@ -57,11 +57,11 @@ Warning 메시지의 발생 : `warning`
 
 - `ros2 launch turtlesim multisim.launch.py`
 
-![image.png](240407%20ROS%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20ROS%20tool%201ce6637ce9a180cbb19ecbd5cc198abd/image%203.png)
+![image.png](image%203.png)
 
 - `ros2 topic list -t`
 
-![image.png](240407%20ROS%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20ROS%20tool%201ce6637ce9a180cbb19ecbd5cc198abd/image%204.png)
+![image.png](image%204.png)
 
 `turtlesim2` 까지 추가된 모습
 
@@ -106,11 +106,11 @@ Warning 메시지의 발생 : `warning`
 2. 제일 상단의 깃허브 페이지 이동 https://github.com/jkaniuka/magician_ros2
 3. `./dobot_msgs` 이동 후 살펴보기
 
-![image.png](240407%20ROS%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20ROS%20tool%201ce6637ce9a180cbb19ecbd5cc198abd/image%205.png)
+![image.png](image%205.png)
 
-![image.png](240407%20ROS%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20ROS%20tool%201ce6637ce9a180cbb19ecbd5cc198abd/image%206.png)
+![image.png](image%206.png)
 
-![image.png](240407%20ROS%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20ROS%20tool%201ce6637ce9a180cbb19ecbd5cc198abd/image%207.png)
+![image.png](image%207.png)
 
 ## ROS2 RViz
 
@@ -127,20 +127,20 @@ Warning 메시지의 발생 : `warning`
 1. `ros2 run rviz2 rviz2`
 2. `rviz2` 로 입력해도 실행가능
 
-![image.png](240407%20ROS%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20ROS%20tool%201ce6637ce9a180cbb19ecbd5cc198abd/image%208.png)
+![image.png](image%208.png)
 
 1. Add 클릭 - 자주 사용하는 목록 : 축, 카메라, 뎁스, 이미지, 마커, 포인트클라우드2, 로봇 모델, TF
 2. RobotModel 클릭 후 OK
 3. Grid 열어보기, 숫자를 10 → 20으로 바꿔보기 : 맵의 사이즈 변환
 
-![image.png](240407%20ROS%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20ROS%20tool%201ce6637ce9a180cbb19ecbd5cc198abd/image%209.png)
+![image.png](image%209.png)
 
 ### urdf 실습
 
 1. ros2_ws 에서 code 열기
 2. simple_robot.urdf 생성
 
-![image.png](240407%20ROS%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20ROS%20tool%201ce6637ce9a180cbb19ecbd5cc198abd/image%2010.png)
+![image.png](image%2010.png)
 
 1. urdf 파일 작성
 
@@ -162,7 +162,7 @@ Warning 메시지의 발생 : `warning`
 </robot>
 ```
 
-![image.png](240407%20ROS%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20ROS%20tool%201ce6637ce9a180cbb19ecbd5cc198abd/image%2011.png)
+![image.png](image%2011.png)
 
 1. Fixed Frame까지 base_link로 바꿔주면 위와 같이 나온다
 
@@ -227,8 +227,8 @@ if __name__ == '__main__':
 5. `Fixed Frame` ’world’로 변경
 6. `Grid` 다음과 같이 설정
     
-    ![image.png](240407%20ROS%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20ROS%20tool%201ce6637ce9a180cbb19ecbd5cc198abd/image%2012.png)
+    ![image.png](image%2012.png)
     
 7. `ros2 run turtlesim turtle_teleop_key`
 
-![image.png](240407%20ROS%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%90%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20ROS%20tool%201ce6637ce9a180cbb19ecbd5cc198abd/image%2013.png)
+![image.png](image%2013.png)
