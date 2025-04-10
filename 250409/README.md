@@ -378,3 +378,19 @@ client_socket.close()
 - listen(1) 최대 1개의 클라이언트 연결 허용 (N개의 대기)
 - accept() 클라이언트 연결 대기
 - send() & recv() 데이터 송수신신
+
+## 오프라인 실습
+
+### 1단계
+
+1. C드라이브에 work_13th 폴더 생성 후
+2. `python -m venv python_socket`
+3. `.\python_socket\Scripts\activate`
+4. 빠져나가고 싶으면 `deactivate`
+
+### 2단계
+
+1. vscode 켜기
+2. `Ctrl + Shift + P`
+3. `Python : select interpreter` 검색
+4. 아까 만든 work 폴더의 Scripts/python.exe 선택
