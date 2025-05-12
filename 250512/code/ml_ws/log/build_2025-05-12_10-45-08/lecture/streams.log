@@ -1,0 +1,33 @@
+[0.454s] Invoking command in '/home/ssafy/ml_ws/src/lecture': PYTHONPATH=/home/ssafy/ml_ws/build/lecture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ml_ws/install/lecture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lecture build --build-base /home/ssafy/ml_ws/build/lecture/build install --record /home/ssafy/ml_ws/build/lecture/install.log --single-version-externally-managed install_data
+[0.602s] running egg_info
+[0.602s] creating ../../build/lecture/lecture.egg-info
+[0.602s] writing ../../build/lecture/lecture.egg-info/PKG-INFO
+[0.602s] writing dependency_links to ../../build/lecture/lecture.egg-info/dependency_links.txt
+[0.603s] writing entry points to ../../build/lecture/lecture.egg-info/entry_points.txt
+[0.603s] writing requirements to ../../build/lecture/lecture.egg-info/requires.txt
+[0.603s] writing top-level names to ../../build/lecture/lecture.egg-info/top_level.txt
+[0.603s] writing manifest file '../../build/lecture/lecture.egg-info/SOURCES.txt'
+[0.604s] reading manifest file '../../build/lecture/lecture.egg-info/SOURCES.txt'
+[0.605s] writing manifest file '../../build/lecture/lecture.egg-info/SOURCES.txt'
+[0.605s] running build
+[0.605s] running build_py
+[0.605s] creating /home/ssafy/ml_ws/build/lecture/build
+[0.605s] creating /home/ssafy/ml_ws/build/lecture/build/lib
+[0.605s] creating /home/ssafy/ml_ws/build/lecture/build/lib/lecture
+[0.605s] copying lecture/__init__.py -> /home/ssafy/ml_ws/build/lecture/build/lib/lecture
+[0.605s] running install
+[0.605s] running install_lib
+[0.606s] creating /home/ssafy/ml_ws/install/lecture/lib/python3.10/site-packages/lecture
+[0.606s] copying /home/ssafy/ml_ws/build/lecture/build/lib/lecture/__init__.py -> /home/ssafy/ml_ws/install/lecture/lib/python3.10/site-packages/lecture
+[0.606s] byte-compiling /home/ssafy/ml_ws/install/lecture/lib/python3.10/site-packages/lecture/__init__.py to __init__.cpython-310.pyc
+[0.606s] running install_data
+[0.606s] creating /home/ssafy/ml_ws/install/lecture/share/ament_index
+[0.606s] creating /home/ssafy/ml_ws/install/lecture/share/ament_index/resource_index
+[0.606s] creating /home/ssafy/ml_ws/install/lecture/share/ament_index/resource_index/packages
+[0.607s] copying resource/lecture -> /home/ssafy/ml_ws/install/lecture/share/ament_index/resource_index/packages
+[0.607s] copying package.xml -> /home/ssafy/ml_ws/install/lecture/share/lecture
+[0.607s] running install_egg_info
+[0.609s] Copying ../../build/lecture/lecture.egg-info to /home/ssafy/ml_ws/install/lecture/lib/python3.10/site-packages/lecture-0.0.0-py3.10.egg-info
+[0.609s] running install_scripts
+[0.622s] writing list of installed files to '/home/ssafy/ml_ws/build/lecture/install.log'
+[0.638s] Invoked command in '/home/ssafy/ml_ws/src/lecture' returned '0': PYTHONPATH=/home/ssafy/ml_ws/build/lecture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ml_ws/install/lecture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lecture build --build-base /home/ssafy/ml_ws/build/lecture/build install --record /home/ssafy/ml_ws/build/lecture/install.log --single-version-externally-managed install_data

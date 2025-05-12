@@ -1,0 +1,25 @@
+[0.373s] Invoking command in '/home/ssafy/ml_ws/src/lecture': PYTHONPATH=/home/ssafy/ml_ws/build/lecture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ml_ws/install/lecture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lecture build --build-base /home/ssafy/ml_ws/build/lecture/build install --record /home/ssafy/ml_ws/build/lecture/install.log --single-version-externally-managed install_data
+[0.514s] running egg_info
+[0.514s] writing ../../build/lecture/lecture.egg-info/PKG-INFO
+[0.514s] writing dependency_links to ../../build/lecture/lecture.egg-info/dependency_links.txt
+[0.514s] writing entry points to ../../build/lecture/lecture.egg-info/entry_points.txt
+[0.514s] writing requirements to ../../build/lecture/lecture.egg-info/requires.txt
+[0.514s] writing top-level names to ../../build/lecture/lecture.egg-info/top_level.txt
+[0.515s] reading manifest file '../../build/lecture/lecture.egg-info/SOURCES.txt'
+[0.516s] writing manifest file '../../build/lecture/lecture.egg-info/SOURCES.txt'
+[0.516s] running build
+[0.516s] running build_py
+[0.516s] copying lecture/image_publisher.py -> /home/ssafy/ml_ws/build/lecture/build/lib/lecture
+[0.516s] running install
+[0.516s] running install_lib
+[0.517s] copying /home/ssafy/ml_ws/build/lecture/build/lib/lecture/image_publisher.py -> /home/ssafy/ml_ws/install/lecture/lib/python3.10/site-packages/lecture
+[0.517s] byte-compiling /home/ssafy/ml_ws/install/lecture/lib/python3.10/site-packages/lecture/image_publisher.py to image_publisher.cpython-310.pyc
+[0.518s] running install_data
+[0.518s] running install_egg_info
+[0.519s] removing '/home/ssafy/ml_ws/install/lecture/lib/python3.10/site-packages/lecture-0.0.0-py3.10.egg-info' (and everything under it)
+[0.519s] Copying ../../build/lecture/lecture.egg-info to /home/ssafy/ml_ws/install/lecture/lib/python3.10/site-packages/lecture-0.0.0-py3.10.egg-info
+[0.520s] running install_scripts
+[0.533s] Installing image_publisher script to /home/ssafy/ml_ws/install/lecture/lib/lecture
+[0.533s] Installing qr_code_detection_node script to /home/ssafy/ml_ws/install/lecture/lib/lecture
+[0.533s] writing list of installed files to '/home/ssafy/ml_ws/build/lecture/install.log'
+[0.547s] Invoked command in '/home/ssafy/ml_ws/src/lecture' returned '0': PYTHONPATH=/home/ssafy/ml_ws/build/lecture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/ml_ws/install/lecture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lecture build --build-base /home/ssafy/ml_ws/build/lecture/build install --record /home/ssafy/ml_ws/build/lecture/install.log --single-version-externally-managed install_data

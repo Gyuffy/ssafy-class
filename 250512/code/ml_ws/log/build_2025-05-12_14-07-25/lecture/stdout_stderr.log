@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/lecture/lecture.egg-info/PKG-INFO
+writing dependency_links to ../../build/lecture/lecture.egg-info/dependency_links.txt
+writing entry points to ../../build/lecture/lecture.egg-info/entry_points.txt
+writing requirements to ../../build/lecture/lecture.egg-info/requires.txt
+writing top-level names to ../../build/lecture/lecture.egg-info/top_level.txt
+reading manifest file '../../build/lecture/lecture.egg-info/SOURCES.txt'
+writing manifest file '../../build/lecture/lecture.egg-info/SOURCES.txt'
+running build
+running build_py
+copying lecture/image_publisher.py -> /home/ssafy/ml_ws/build/lecture/build/lib/lecture
+running install
+running install_lib
+copying /home/ssafy/ml_ws/build/lecture/build/lib/lecture/image_publisher.py -> /home/ssafy/ml_ws/install/lecture/lib/python3.10/site-packages/lecture
+byte-compiling /home/ssafy/ml_ws/install/lecture/lib/python3.10/site-packages/lecture/image_publisher.py to image_publisher.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/ssafy/ml_ws/install/lecture/lib/python3.10/site-packages/lecture-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/lecture/lecture.egg-info to /home/ssafy/ml_ws/install/lecture/lib/python3.10/site-packages/lecture-0.0.0-py3.10.egg-info
+running install_scripts
+Installing image_publisher script to /home/ssafy/ml_ws/install/lecture/lib/lecture
+Installing qr_code_detection_node script to /home/ssafy/ml_ws/install/lecture/lib/lecture
+writing list of installed files to '/home/ssafy/ml_ws/build/lecture/install.log'

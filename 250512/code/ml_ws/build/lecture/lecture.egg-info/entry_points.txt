@@ -1,0 +1,5 @@
+[console_scripts]
+face_recognizer_node = lecture.face_recognizer_node:main
+qr_code_detection_node = lecture.qr_code_detection_node:main
+subscriber = lecture.subscribe:main
+
