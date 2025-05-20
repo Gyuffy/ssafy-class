@@ -1,0 +1,3 @@
+[console_scripts]
+alarms_parser = dobot_diagnostics.alarms_parser:main
+

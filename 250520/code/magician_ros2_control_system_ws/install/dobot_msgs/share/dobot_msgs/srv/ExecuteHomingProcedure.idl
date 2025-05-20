@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs/srv/ExecuteHomingProcedure.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "empty request field")
+    struct ExecuteHomingProcedure_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "response fields")
+    struct ExecuteHomingProcedure_Response {
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "description of homing procedure")
+      string instruction;
+    };
+  };
+};

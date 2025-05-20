@@ -1,0 +1,8 @@
+/home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs/rosidl_adapter/dobot_msgs:action/PointToPoint.idl
+/home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs/rosidl_adapter/dobot_msgs:action/SlidingRail.idl
+/home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs/rosidl_adapter/dobot_msgs:msg/DobotAlarmCodes.idl
+/home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs/rosidl_adapter/dobot_msgs:msg/GripperStatus.idl
+/home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs/rosidl_adapter/dobot_msgs:srv/EvaluatePTPTrajectory.idl
+/home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs/rosidl_adapter/dobot_msgs:srv/ExecuteHomingProcedure.idl
+/home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs/rosidl_adapter/dobot_msgs:srv/GripperControl.idl
+/home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs/rosidl_adapter/dobot_msgs:srv/SuctionCupControl.idl

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs/srv/SuctionCupControl.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "request fields")
+    struct SuctionCupControl_Request {
+      boolean enable_suction;
+    };
+    @verbatim (language="comment", text=
+      "response fields")
+    struct SuctionCupControl_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

@@ -1,0 +1,39 @@
+Built target ament_cmake_python_copy_dobot_driver
+running egg_info
+writing dobot_driver.egg-info/PKG-INFO
+writing dependency_links to dobot_driver.egg-info/dependency_links.txt
+writing top-level names to dobot_driver.egg-info/top_level.txt
+reading manifest file 'dobot_driver.egg-info/SOURCES.txt'
+writing manifest file 'dobot_driver.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_dobot_driver_egg
+-- Install configuration: ""
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/environment/pythonpath.sh
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/environment/pythonpath.dsv
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver-1.0.0-py3.10.egg-info
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver-1.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver/dobot_handle.py
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver/message.py
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver/parsers.py
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver/__init__.py
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver/interface.py
+Listing '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver'...
+Compiling '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/local/lib/python3.10/dist-packages/dobot_driver/dobot_handle.py'...
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/ament_index/resource_index/package_run_dependencies/dobot_driver
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/ament_index/resource_index/parent_prefix_path/dobot_driver
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/environment/path.sh
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/environment/path.dsv
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/local_setup.bash
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/local_setup.sh
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/local_setup.zsh
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/local_setup.dsv
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/package.dsv
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/ament_index/resource_index/packages/dobot_driver
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/cmake/dobot_driverConfig.cmake
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/cmake/dobot_driverConfig-version.cmake
+-- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/package.xml

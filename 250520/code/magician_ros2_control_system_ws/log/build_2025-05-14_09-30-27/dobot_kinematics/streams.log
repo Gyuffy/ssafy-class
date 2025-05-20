@@ -1,0 +1,22 @@
+[1.596s] Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_kinematics': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_kinematics build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/install.log --single-version-externally-managed install_data
+[1.757s] running egg_info
+[1.757s] writing ../../build/dobot_kinematics/dobot_kinematics.egg-info/PKG-INFO
+[1.757s] writing dependency_links to ../../build/dobot_kinematics/dobot_kinematics.egg-info/dependency_links.txt
+[1.757s] writing entry points to ../../build/dobot_kinematics/dobot_kinematics.egg-info/entry_points.txt
+[1.757s] writing requirements to ../../build/dobot_kinematics/dobot_kinematics.egg-info/requires.txt
+[1.757s] writing top-level names to ../../build/dobot_kinematics/dobot_kinematics.egg-info/top_level.txt
+[1.759s] reading manifest file '../../build/dobot_kinematics/dobot_kinematics.egg-info/SOURCES.txt'
+[1.759s] writing manifest file '../../build/dobot_kinematics/dobot_kinematics.egg-info/SOURCES.txt'
+[1.759s] running build
+[1.759s] running build_py
+[1.760s] running install
+[1.760s] running install_lib
+[1.762s] running install_data
+[1.762s] running install_egg_info
+[1.762s] removing '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics-1.0.0-py3.10.egg-info' (and everything under it)
+[1.763s] Copying ../../build/dobot_kinematics/dobot_kinematics.egg-info to /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics-1.0.0-py3.10.egg-info
+[1.764s] running install_scripts
+[1.776s] Installing trajectory_validator_client script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/dobot_kinematics
+[1.776s] Installing trajectory_validator_server script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/dobot_kinematics
+[1.777s] writing list of installed files to '/home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/install.log'
+[1.796s] Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_kinematics' returned '0': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_kinematics build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/install.log --single-version-externally-managed install_data

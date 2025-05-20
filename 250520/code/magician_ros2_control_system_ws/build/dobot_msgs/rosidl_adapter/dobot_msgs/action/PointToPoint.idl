@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from dobot_msgs/action/PointToPoint.action
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs {
+  module action {
+    typedef double double__4[4];
+    module PointToPoint_Goal_Constants {
+      const uint8 MOTION_TYPE_MOVJ_XYZ = 1;
+      const uint8 MOTION_TYPE_MOVL_XYZ = 2;
+      const uint8 MOTION_TYPE_MOVJ_ANGLE = 4;
+      const uint8 MOTION_TYPE_MOVL_ANGLE = 5;
+    };
+    @verbatim (language="comment", text=
+      "Motion type constants")
+    struct PointToPoint_Goal {
+      @verbatim (language="comment", text=
+        "goal definition")
+      uint8 motion_type;
+
+      double__4 target_pose;
+
+      @default (value=1.0)
+      double velocity_ratio;
+
+      @default (value=1.0)
+      double acceleration_ratio;
+    };
+    typedef double double__4[4];
+    @verbatim (language="comment", text=
+      "result definition")
+    struct PointToPoint_Result {
+      double__4 achieved_pose;
+    };
+    typedef double double__4[4];
+    @verbatim (language="comment", text=
+      "feedback definition")
+    struct PointToPoint_Feedback {
+      double__4 current_pose;
+    };
+  };
+};

@@ -1,0 +1,99 @@
+[0.329s] Invoking command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake /home/ssafy/magician_ros2_control_system_ws/src/dobot_description -DCMAKE_INSTALL_PREFIX=/home/ssafy/magician_ros2_control_system_ws/install/dobot_description
+[0.371s] -- The C compiler identification is GNU 11.4.0
+[0.412s] -- The CXX compiler identification is GNU 11.4.0
+[0.419s] -- Detecting C compiler ABI info
+[0.489s] -- Detecting C compiler ABI info - done
+[0.496s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.496s] -- Detecting C compile features
+[0.496s] -- Detecting C compile features - done
+[0.498s] -- Detecting CXX compiler ABI info
+[0.563s] -- Detecting CXX compiler ABI info - done
+[0.571s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.571s] -- Detecting CXX compile features
+[0.571s] -- Detecting CXX compile features - done
+[0.573s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.711s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.795s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.839s] -- Configuring done
+[0.840s] -- Generating done
+[0.841s] -- Build files have been written to: /home/ssafy/magician_ros2_control_system_ws/build/dobot_description
+[0.844s] Invoked command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake /home/ssafy/magician_ros2_control_system_ws/src/dobot_description -DCMAKE_INSTALL_PREFIX=/home/ssafy/magician_ros2_control_system_ws/install/dobot_description
+[0.846s] Invoking command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/magician_ros2_control_system_ws/build/dobot_description -- -j20 -l20
+[0.880s] Invoked command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/magician_ros2_control_system_ws/build/dobot_description -- -j20 -l20
+[0.890s] Invoking command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/magician_ros2_control_system_ws/build/dobot_description
+[0.901s] -- Install configuration: ""
+[0.901s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/launch
+[0.901s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/launch/display.launch.py
+[0.901s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes
+[0.901s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae
+[0.901s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/magicianLink1.dae
+[0.902s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/stl
+[0.902s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/stl/realsense_gripper.stl
+[0.902s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/stl/dobot_gripper_extender.stl
+[0.903s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/IntelRealSenseD435i.dae
+[0.911s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/magicianLink4.dae
+[0.911s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/magicianGripper.dae
+[0.912s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/jaw_left_extended.dae
+[0.913s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/moving_gripper.dae
+[0.914s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/magicianLink3.dae
+[0.915s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/jaw_right_extended.dae
+[0.915s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/jaw_right.dae
+[0.915s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/magicianSuctionCup.dae
+[0.916s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/magicianBase.dae
+[0.917s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/magicianLink4_default.dae
+[0.917s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/camera.dae
+[0.930s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/suction_cup.dae
+[0.930s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/magician_pen.dae
+[0.930s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/gripper_core.dae
+[0.931s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/jaw_left.dae
+[0.931s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/magicianLink2.dae
+[0.932s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision
+[0.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/urdf_models
+[0.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/urdf_models/pen.urdf
+[0.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/urdf_models/3DOF.urdf
+[0.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/urdf_models/sliding_rail_draft.urdf
+[0.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/urdf_models/suction_cup.urdf
+[0.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/urdf_models/dobot_with_rail.urdf
+[0.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/urdf_models/extended_gripper.urdf
+[0.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/urdf_models/gripper.urdf
+[0.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/additional_elements
+[0.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/additional_elements/sliding_rail.dae
+[0.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/end_tools
+[0.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/end_tools/extended_gripper_collision_part2.dae
+[0.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/end_tools/suction_cup_collision_part2.dae
+[0.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/end_tools/gripper_collision_part2.dae
+[0.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/end_tools/pen_collision_part1.dae
+[0.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/end_tools/extended_gripper_collision_part1.dae
+[0.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/end_tools/link4_collision.dae
+[0.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/end_tools/gripper_collision_part1.dae
+[0.936s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/end_tools/pen_collision_part2.dae
+[0.936s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/end_tools/suction_cup_collision_part1.dae
+[0.936s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/core
+[0.937s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/core/magicianLink1.dae
+[0.937s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/core/magicianLink3.dae
+[0.938s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/core/magicianBase.dae
+[0.939s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/core/magicianLink2.dae
+[0.940s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/rviz
+[0.940s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/rviz/urdf_full.rviz
+[0.941s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/rviz/urdf.rviz
+[0.941s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/model
+[0.941s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/model/magician_standalone.urdf.xacro
+[0.941s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/model/clean_model_no_macros.urdf
+[0.941s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/model/dobot_common.urdf.xacro
+[0.941s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/model/magician.urdf.xacro
+[0.941s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/ament_index/resource_index/package_run_dependencies/dobot_description
+[0.941s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/ament_index/resource_index/parent_prefix_path/dobot_description
+[0.941s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/environment/ament_prefix_path.sh
+[0.941s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/environment/ament_prefix_path.dsv
+[0.941s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/environment/path.sh
+[0.942s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/environment/path.dsv
+[0.942s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/local_setup.bash
+[0.943s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/local_setup.sh
+[0.943s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/local_setup.zsh
+[0.943s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/local_setup.dsv
+[0.943s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/package.dsv
+[0.943s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/ament_index/resource_index/packages/dobot_description
+[0.944s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/cmake/dobot_descriptionConfig.cmake
+[0.944s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/cmake/dobot_descriptionConfig-version.cmake
+[0.944s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/package.xml
+[0.944s] Invoked command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/magician_ros2_control_system_ws/build/dobot_description

@@ -1,0 +1,475 @@
+[0.024s] Invoking command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake /home/ssafy/magician_ros2_control_system_ws/src/dobot_msgs -DCMAKE_INSTALL_PREFIX=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs
+[0.345s] -- The C compiler identification is GNU 11.4.0
+[0.345s] -- The CXX compiler identification is GNU 11.4.0
+[0.345s] -- Detecting C compiler ABI info
+[0.345s] -- Detecting C compiler ABI info - done
+[0.345s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.345s] -- Detecting C compile features
+[0.345s] -- Detecting C compile features - done
+[0.345s] -- Detecting CXX compiler ABI info
+[0.345s] -- Detecting CXX compiler ABI info - done
+[0.345s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.345s] -- Detecting CXX compile features
+[0.346s] -- Detecting CXX compile features - done
+[0.346s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.393s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.461s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.465s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.470s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.533s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.555s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.869s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.070s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.325s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.353s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.356s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.395s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.395s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.395s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.395s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.414s] -- Found PythonExtra: .so  
+[1.490s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.508s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.509s] -- Added test 'lint_cmake' to check CMake code style
+[1.510s] -- Added test 'xmllint' to check XML markup files
+[1.511s] -- Configuring done
+[1.541s] -- Generating done
+[1.550s] -- Build files have been written to: /home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs
+[1.558s] Invoked command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake /home/ssafy/magician_ros2_control_system_ws/src/dobot_msgs -DCMAKE_INSTALL_PREFIX=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs
+[1.559s] Invoking command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs -- -j20 -l20
+[1.611s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.628s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.633s] [  2%] Built target ament_cmake_python_copy_dobot_msgs
+[1.784s] running egg_info
+[1.784s] creating dobot_msgs.egg-info
+[1.784s] writing dobot_msgs.egg-info/PKG-INFO
+[1.784s] writing dependency_links to dobot_msgs.egg-info/dependency_links.txt
+[1.785s] writing top-level names to dobot_msgs.egg-info/top_level.txt
+[1.785s] writing manifest file 'dobot_msgs.egg-info/SOURCES.txt'
+[1.786s] reading manifest file 'dobot_msgs.egg-info/SOURCES.txt'
+[1.786s] writing manifest file 'dobot_msgs.egg-info/SOURCES.txt'
+[1.806s] [  2%] Built target ament_cmake_python_build_dobot_msgs_egg
+[2.355s] [  5%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/dobot_msgs/action/detail/point_to_point__functions.c.o[0m
+[2.355s] [  5%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/dobot_msgs/action/detail/sliding_rail__functions.c.o[0m
+[2.355s] [  5%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/dobot_msgs/srv/detail/execute_homing_procedure__functions.c.o[0m
+[2.355s] [  6%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/dobot_msgs/msg/detail/dobot_alarm_codes__functions.c.o[0m
+[2.355s] [  8%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/dobot_msgs/msg/detail/gripper_status__functions.c.o[0m
+[2.356s] [  9%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/dobot_msgs/srv/detail/suction_cup_control__functions.c.o[0m
+[2.358s] [ 10%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/dobot_msgs/srv/detail/evaluate_ptp_trajectory__functions.c.o[0m
+[2.358s] [ 11%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/dobot_msgs/srv/detail/gripper_control__functions.c.o[0m
+[2.361s] [ 11%] Built target dobot_msgs__cpp
+[2.371s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.371s] [ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.375s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.482s] [ 16%] [32m[1mLinking C shared library libdobot_msgs__rosidl_generator_c.so[0m
+[2.518s] [ 16%] Built target dobot_msgs__rosidl_generator_c
+[2.531s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.531s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.531s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.831s] [ 20%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_msgs/srv/evaluate_ptp_trajectory__type_support.cpp.o[0m
+[2.833s] [ 21%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_msgs/srv/suction_cup_control__type_support.cpp.o[0m
+[2.833s] [ 25%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_msgs/msg/gripper_status__type_support.cpp.o[0m
+[2.834s] [ 25%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_msgs/action/sliding_rail__type_support.cpp.o[0m
+[2.834s] [ 25%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_msgs/action/point_to_point__type_support.cpp.o[0m
+[2.834s] [ 26%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_msgs/msg/dobot_alarm_codes__type_support.cpp.o[0m
+[2.835s] [ 27%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_msgs/srv/execute_homing_procedure__type_support.cpp.o[0m
+[2.835s] [ 28%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_msgs/srv/gripper_control__type_support.cpp.o[0m
+[2.970s] [ 31%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support.cpp.o[0m
+[2.971s] [ 31%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_msgs/msg/detail/gripper_status__type_support.cpp.o[0m
+[2.971s] [ 32%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_msgs/action/detail/sliding_rail__type_support.cpp.o[0m
+[2.971s] [ 33%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_msgs/srv/detail/gripper_control__type_support.cpp.o[0m
+[2.971s] [ 34%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_msgs/action/detail/point_to_point__type_support.cpp.o[0m
+[2.971s] [ 35%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_msgs/srv/detail/execute_homing_procedure__type_support.cpp.o[0m
+[2.972s] [ 36%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_msgs/msg/detail/dobot_alarm_codes__type_support.cpp.o[0m
+[2.979s] [ 37%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_msgs/srv/detail/suction_cup_control__type_support.cpp.o[0m
+[3.123s] [ 39%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_msgs/action/sliding_rail__type_support.cpp.o[0m
+[3.124s] [ 40%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_msgs/msg/dobot_alarm_codes__type_support.cpp.o[0m
+[3.124s] [ 41%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_msgs/msg/gripper_status__type_support.cpp.o[0m
+[3.127s] [ 42%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_msgs/action/point_to_point__type_support.cpp.o[0m
+[3.163s] [ 43%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_msgs/srv/evaluate_ptp_trajectory__type_support.cpp.o[0m
+[3.163s] [ 44%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_msgs/srv/execute_homing_procedure__type_support.cpp.o[0m
+[3.166s] [ 45%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_msgs/srv/gripper_control__type_support.cpp.o[0m
+[3.169s] [ 47%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_msgs/srv/suction_cup_control__type_support.cpp.o[0m
+[3.213s] [ 48%] [32m[1mLinking CXX shared library libdobot_msgs__rosidl_typesupport_c.so[0m
+[3.227s] [ 52%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_msgs/srv/detail/dds_fastrtps/evaluate_ptp_trajectory__type_support.cpp.o[0m
+[3.227s] [ 52%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_msgs/action/detail/dds_fastrtps/sliding_rail__type_support.cpp.o[0m
+[3.227s] [ 52%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_msgs/action/detail/dds_fastrtps/point_to_point__type_support.cpp.o[0m
+[3.227s] [ 52%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_msgs/msg/detail/dds_fastrtps/dobot_alarm_codes__type_support.cpp.o[0m
+[3.227s] [ 54%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_msgs/srv/detail/dds_fastrtps/gripper_control__type_support.cpp.o[0m
+[3.228s] [ 55%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_msgs/srv/detail/dds_fastrtps/execute_homing_procedure__type_support.cpp.o[0m
+[3.228s] [ 56%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_msgs/msg/detail/dds_fastrtps/gripper_status__type_support.cpp.o[0m
+[3.232s] [ 57%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_msgs/srv/detail/dds_fastrtps/suction_cup_control__type_support.cpp.o[0m
+[3.257s] [ 58%] [32m[1mLinking CXX shared library libdobot_msgs__rosidl_typesupport_cpp.so[0m
+[3.273s] [ 58%] Built target dobot_msgs__rosidl_typesupport_c
+[3.316s] [ 58%] Built target dobot_msgs__rosidl_typesupport_cpp
+[3.395s] [ 59%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_msgs/action/detail/point_to_point__type_support_c.cpp.o[0m
+[3.395s] [ 60%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_msgs/msg/detail/dobot_alarm_codes__type_support_c.cpp.o[0m
+[3.395s] [ 62%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_msgs/action/detail/sliding_rail__type_support_c.cpp.o[0m
+[3.395s] [ 63%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support_c.cpp.o[0m
+[3.396s] [ 64%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_msgs/msg/detail/gripper_status__type_support_c.cpp.o[0m
+[3.436s] [ 65%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_msgs/srv/detail/execute_homing_procedure__type_support_c.cpp.o[0m
+[3.440s] [ 66%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_msgs/srv/detail/gripper_control__type_support_c.cpp.o[0m
+[3.469s] [ 67%] [32mBuilding CXX object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_msgs/srv/detail/suction_cup_control__type_support_c.cpp.o[0m
+[3.510s] [ 68%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_msgs/action/detail/point_to_point__type_support.c.o[0m
+[3.511s] [ 70%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_msgs/action/detail/sliding_rail__type_support.c.o[0m
+[3.571s] [ 71%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_msgs/msg/detail/dobot_alarm_codes__type_support.c.o[0m
+[3.579s] [ 72%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_msgs/msg/detail/gripper_status__type_support.c.o[0m
+[3.626s] [ 73%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support.c.o[0m
+[3.669s] [ 74%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_msgs/srv/detail/execute_homing_procedure__type_support.c.o[0m
+[3.674s] [ 75%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_msgs/srv/detail/gripper_control__type_support.c.o[0m
+[3.683s] [ 77%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_msgs/srv/detail/suction_cup_control__type_support.c.o[0m
+[3.721s] [ 78%] [32m[1mLinking C shared library libdobot_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.740s] [ 79%] [32m[1mLinking CXX shared library libdobot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.751s] [ 79%] Built target dobot_msgs__rosidl_typesupport_introspection_c
+[3.802s] [ 79%] Built target dobot_msgs__rosidl_typesupport_introspection_cpp
+[3.836s] [ 80%] [32m[1mLinking CXX shared library libdobot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.866s] [ 81%] [32m[1mLinking CXX shared library libdobot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.895s] [ 81%] Built target dobot_msgs__rosidl_typesupport_fastrtps_cpp
+[3.922s] [ 81%] Built target dobot_msgs__rosidl_typesupport_fastrtps_c
+[3.952s] [ 81%] Built target dobot_msgs
+[3.989s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.382s] [ 82%] Built target dobot_msgs__py
+[5.420s] [ 83%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/dobot_msgs/srv/_evaluate_ptp_trajectory_s.c.o[0m
+[5.420s] [ 85%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/dobot_msgs/srv/_execute_homing_procedure_s.c.o[0m
+[5.421s] [ 86%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/dobot_msgs/msg/_dobot_alarm_codes_s.c.o[0m
+[5.421s] [ 87%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/dobot_msgs/action/_point_to_point_s.c.o[0m
+[5.421s] [ 88%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/dobot_msgs/srv/_suction_cup_control_s.c.o[0m
+[5.422s] [ 89%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/dobot_msgs/srv/_gripper_control_s.c.o[0m
+[5.423s] [ 90%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/dobot_msgs/action/_sliding_rail_s.c.o[0m
+[5.423s] [ 91%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/dobot_msgs/msg/_gripper_status_s.c.o[0m
+[5.589s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/dobot_msgs/libdobot_msgs__rosidl_generator_py.so[0m
+[5.649s] [ 93%] Built target dobot_msgs__rosidl_generator_py
+[5.683s] [ 94%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dobot_msgs/_dobot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.684s] [ 95%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dobot_msgs/_dobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.685s] [ 96%] [32mBuilding C object CMakeFiles/dobot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dobot_msgs/_dobot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.800s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dobot_msgs/dobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.802s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/dobot_msgs/dobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.810s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dobot_msgs/dobot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.835s] [100%] Built target dobot_msgs__rosidl_typesupport_introspection_c__pyext
+[5.836s] [100%] Built target dobot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.848s] [100%] Built target dobot_msgs__rosidl_typesupport_c__pyext
+[5.861s] Invoked command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs -- -j20 -l20
+[5.863s] Invoking command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs
+[5.871s] -- Install configuration: ""
+[5.871s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/ament_index/resource_index/rosidl_interfaces/dobot_msgs
+[5.871s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs
+[5.871s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv
+[5.871s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/execute_homing_procedure.h
+[5.871s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/evaluate_ptp_trajectory.h
+[5.872s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/gripper_control.h
+[5.872s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail
+[5.872s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__type_support.h
+[5.872s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__functions.c
+[5.872s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__struct.h
+[5.872s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__functions.c
+[5.872s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__functions.h
+[5.872s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__type_support.h
+[5.872s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__type_support.h
+[5.872s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__functions.h
+[5.872s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__struct.h
+[5.872s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__functions.c
+[5.872s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__functions.c
+[5.872s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support.h
+[5.872s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__functions.h
+[5.872s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__struct.h
+[5.872s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__struct.h
+[5.872s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__functions.h
+[5.872s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/suction_cup_control.h
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/point_to_point.h
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__functions.h
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__functions.h
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__type_support.h
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__functions.c
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__functions.c
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__struct.h
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__type_support.h
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__struct.h
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/sliding_rail.h
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/gripper_status.h
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__type_support.h
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__functions.h
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__struct.h
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__functions.c
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__type_support.h
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__functions.h
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__struct.h
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__functions.c
+[5.873s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/dobot_alarm_codes.h
+[5.874s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/environment/library_path.sh
+[5.874s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/environment/library_path.dsv
+[5.874s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_generator_c.so
+[5.874s] -- Set runtime path of "/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_generator_c.so" to ""
+[5.874s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs
+[5.874s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv
+[5.874s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail
+[5.874s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__rosidl_typesupport_fastrtps_c.h
+[5.874s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__rosidl_typesupport_fastrtps_c.h
+[5.874s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__rosidl_typesupport_fastrtps_c.h
+[5.874s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__rosidl_typesupport_fastrtps_c.h
+[5.874s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action
+[5.874s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail
+[5.874s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__rosidl_typesupport_fastrtps_c.h
+[5.874s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__rosidl_typesupport_fastrtps_c.h
+[5.874s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg
+[5.874s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.874s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail
+[5.874s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__rosidl_typesupport_fastrtps_c.h
+[5.874s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__rosidl_typesupport_fastrtps_c.h
+[5.874s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_fastrtps_c.so
+[5.874s] -- Set runtime path of "/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.874s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs
+[5.875s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv
+[5.875s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail
+[5.875s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__rosidl_typesupport_introspection_c.h
+[5.875s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__type_support.c
+[5.875s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__rosidl_typesupport_introspection_c.h
+[5.875s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__type_support.c
+[5.875s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__rosidl_typesupport_introspection_c.h
+[5.875s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__rosidl_typesupport_introspection_c.h
+[5.875s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support.c
+[5.875s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__type_support.c
+[5.875s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action
+[5.875s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail
+[5.875s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__rosidl_typesupport_introspection_c.h
+[5.875s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__rosidl_typesupport_introspection_c.h
+[5.875s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__type_support.c
+[5.875s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__type_support.c
+[5.875s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg
+[5.875s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.875s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail
+[5.875s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__rosidl_typesupport_introspection_c.h
+[5.875s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__type_support.c
+[5.875s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__rosidl_typesupport_introspection_c.h
+[5.875s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__type_support.c
+[5.875s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_introspection_c.so
+[5.875s] -- Set runtime path of "/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.876s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_c.so
+[5.876s] -- Set runtime path of "/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_c.so" to ""
+[5.876s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs
+[5.876s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv
+[5.876s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/gripper_control.hpp
+[5.876s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/evaluate_ptp_trajectory.hpp
+[5.876s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/execute_homing_procedure.hpp
+[5.876s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail
+[5.876s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__traits.hpp
+[5.876s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__struct.hpp
+[5.876s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__type_support.hpp
+[5.876s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__type_support.hpp
+[5.876s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__traits.hpp
+[5.876s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__struct.hpp
+[5.876s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__struct.hpp
+[5.876s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__builder.hpp
+[5.876s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__traits.hpp
+[5.876s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__struct.hpp
+[5.876s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__builder.hpp
+[5.877s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__type_support.hpp
+[5.877s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__traits.hpp
+[5.877s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support.hpp
+[5.877s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__builder.hpp
+[5.877s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__builder.hpp
+[5.877s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/suction_cup_control.hpp
+[5.877s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action
+[5.877s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/sliding_rail.hpp
+[5.877s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail
+[5.877s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__struct.hpp
+[5.877s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__type_support.hpp
+[5.877s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__type_support.hpp
+[5.877s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__traits.hpp
+[5.877s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__struct.hpp
+[5.877s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__builder.hpp
+[5.878s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__builder.hpp
+[5.878s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__traits.hpp
+[5.878s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/point_to_point.hpp
+[5.878s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg
+[5.878s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/dobot_alarm_codes.hpp
+[5.878s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/gripper_status.hpp
+[5.878s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail
+[5.878s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__builder.hpp
+[5.878s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__traits.hpp
+[5.878s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__type_support.hpp
+[5.878s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__type_support.hpp
+[5.879s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__traits.hpp
+[5.879s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__builder.hpp
+[5.879s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__struct.hpp
+[5.879s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__struct.hpp
+[5.879s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.879s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs
+[5.879s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv
+[5.879s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail
+[5.879s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__rosidl_typesupport_fastrtps_cpp.hpp
+[5.879s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__rosidl_typesupport_fastrtps_cpp.hpp
+[5.879s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__rosidl_typesupport_fastrtps_cpp.hpp
+[5.879s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/dds_fastrtps
+[5.880s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[5.880s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action
+[5.880s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail
+[5.880s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__rosidl_typesupport_fastrtps_cpp.hpp
+[5.880s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__rosidl_typesupport_fastrtps_cpp.hpp
+[5.880s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/dds_fastrtps
+[5.880s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg
+[5.880s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail
+[5.880s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.880s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__rosidl_typesupport_fastrtps_cpp.hpp
+[5.880s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dds_fastrtps
+[5.880s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.880s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.880s] -- Set runtime path of "/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.880s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs
+[5.880s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv
+[5.880s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail
+[5.880s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__type_support.cpp
+[5.880s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[5.880s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__rosidl_typesupport_introspection_cpp.hpp
+[5.880s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__rosidl_typesupport_introspection_cpp.hpp
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__type_support.cpp
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__type_support.cpp
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support.cpp
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__rosidl_typesupport_introspection_cpp.hpp
+[5.881s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action
+[5.881s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__rosidl_typesupport_introspection_cpp.hpp
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__type_support.cpp
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__rosidl_typesupport_introspection_cpp.hpp
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__type_support.cpp
+[5.881s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg
+[5.881s] -- Up-to-date: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__type_support.cpp
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__type_support.cpp
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__rosidl_typesupport_introspection_cpp.hpp
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__rosidl_typesupport_introspection_cpp.hpp
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_introspection_cpp.so
+[5.881s] -- Set runtime path of "/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_cpp.so
+[5.881s] -- Set runtime path of "/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_cpp.so" to ""
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/environment/pythonpath.sh
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/environment/pythonpath.dsv
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs-1.0.0-py3.10.egg-info
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv
+[5.881s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_execute_homing_procedure.py
+[5.882s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_evaluate_ptp_trajectory_s.c
+[5.882s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_gripper_control_s.c
+[5.882s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_execute_homing_procedure_s.c
+[5.882s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_suction_cup_control.py
+[5.882s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_gripper_control.py
+[5.882s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_evaluate_ptp_trajectory.py
+[5.883s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/__init__.py
+[5.883s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_suction_cup_control_s.c
+[5.883s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.883s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/_dobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.883s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/_dobot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.883s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/libdobot_msgs__rosidl_generator_py.so
+[5.883s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.883s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.883s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/_dobot_msgs_s.ep.rosidl_typesupport_c.c
+[5.883s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action
+[5.883s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/_sliding_rail.py
+[5.884s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/_point_to_point_s.c
+[5.884s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/_point_to_point.py
+[5.884s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/_sliding_rail_s.c
+[5.884s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/__init__.py
+[5.884s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg
+[5.884s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/_dobot_alarm_codes.py
+[5.884s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/_gripper_status.py
+[5.884s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/_gripper_status_s.c
+[5.884s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/_dobot_alarm_codes_s.c
+[5.884s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/__init__.py
+[5.884s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/__init__.py
+[5.927s] Listing '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs'...
+[5.927s] Compiling '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/__init__.py'...
+[5.927s] Listing '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action'...
+[5.927s] Compiling '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/__init__.py'...
+[5.927s] Compiling '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/_point_to_point.py'...
+[5.927s] Compiling '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/_sliding_rail.py'...
+[5.927s] Listing '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg'...
+[5.927s] Compiling '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/__init__.py'...
+[5.927s] Compiling '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/_dobot_alarm_codes.py'...
+[5.927s] Compiling '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/_gripper_status.py'...
+[5.927s] Listing '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv'...
+[5.927s] Compiling '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/__init__.py'...
+[5.928s] Compiling '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_evaluate_ptp_trajectory.py'...
+[5.928s] Compiling '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_execute_homing_procedure.py'...
+[5.928s] Compiling '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_gripper_control.py'...
+[5.928s] Compiling '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_suction_cup_control.py'...
+[5.930s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.930s] -- Set runtime path of "/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.930s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.930s] -- Set runtime path of "/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.930s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.930s] -- Set runtime path of "/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.931s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_generator_py.so
+[5.931s] -- Set runtime path of "/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib/libdobot_msgs__rosidl_generator_py.so" to ""
+[5.931s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/action/PointToPoint.idl
+[5.931s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/action/SlidingRail.idl
+[5.931s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/msg/DobotAlarmCodes.idl
+[5.931s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/msg/GripperStatus.idl
+[5.931s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/srv/EvaluatePTPTrajectory.idl
+[5.931s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/srv/ExecuteHomingProcedure.idl
+[5.931s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/srv/GripperControl.idl
+[5.931s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/srv/SuctionCupControl.idl
+[5.931s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/action/PointToPoint.action
+[5.931s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/action/SlidingRail.action
+[5.931s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/msg/DobotAlarmCodes.msg
+[5.931s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/msg/GripperStatus.msg
+[5.932s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/srv/EvaluatePTPTrajectory.srv
+[5.932s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/srv/EvaluatePTPTrajectory_Request.msg
+[5.932s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/srv/EvaluatePTPTrajectory_Response.msg
+[5.932s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/srv/ExecuteHomingProcedure.srv
+[5.932s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/srv/ExecuteHomingProcedure_Request.msg
+[5.932s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/srv/ExecuteHomingProcedure_Response.msg
+[5.932s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/srv/GripperControl.srv
+[5.932s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/srv/GripperControl_Request.msg
+[5.932s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/srv/GripperControl_Response.msg
+[5.932s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/srv/SuctionCupControl.srv
+[5.932s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/srv/SuctionCupControl_Request.msg
+[5.932s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/srv/SuctionCupControl_Response.msg
+[5.932s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/ament_index/resource_index/package_run_dependencies/dobot_msgs
+[5.932s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/ament_index/resource_index/parent_prefix_path/dobot_msgs
+[5.932s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/environment/ament_prefix_path.sh
+[5.932s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/environment/ament_prefix_path.dsv
+[5.932s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/environment/path.sh
+[5.932s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/environment/path.dsv
+[5.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/local_setup.bash
+[5.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/local_setup.sh
+[5.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/local_setup.zsh
+[5.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/local_setup.dsv
+[5.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/package.dsv
+[5.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/ament_index/resource_index/packages/dobot_msgs
+[5.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_generator_cExport.cmake
+[5.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_cExport.cmake
+[5.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_generator_cppExport.cmake
+[5.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.933s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_cppExport.cmake
+[5.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_generator_pyExport.cmake
+[5.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/rosidl_cmake-extras.cmake
+[5.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgsConfig.cmake
+[5.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgsConfig-version.cmake
+[5.934s] -- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/package.xml
+[5.936s] Invoked command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs

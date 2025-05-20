@@ -1,0 +1,6 @@
+source;share/dobot_end_effector/hook/pythonpath.ps1
+source;share/dobot_end_effector/hook/pythonpath.dsv
+source;share/dobot_end_effector/hook/pythonpath.sh
+source;share/dobot_end_effector/hook/ament_prefix_path.ps1
+source;share/dobot_end_effector/hook/ament_prefix_path.dsv
+source;share/dobot_end_effector/hook/ament_prefix_path.sh

@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from dobot_msgs/action/SlidingRail.action
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct SlidingRail_Goal {
+      double target_pose;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct SlidingRail_Result {
+      double achieved_pose;
+    };
+    @verbatim (language="comment", text=
+      "feedback definition")
+    struct SlidingRail_Feedback {
+      double current_pose;
+    };
+  };
+};

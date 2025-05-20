@@ -1,0 +1,7 @@
+[console_scripts]
+test_gripper = dobot_demos.gripper_client:main
+test_homing = dobot_demos.homing_client:main
+test_pick_and_place = dobot_demos.pick_and_place:main
+test_point_to_point = dobot_demos.PTP_client:main
+test_suction_cup = dobot_demos.suction_cup_client:main
+

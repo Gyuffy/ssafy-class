@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/dobot_motion/dobot_motion.egg-info
+writing ../../build/dobot_motion/dobot_motion.egg-info/PKG-INFO
+writing dependency_links to ../../build/dobot_motion/dobot_motion.egg-info/dependency_links.txt
+writing entry points to ../../build/dobot_motion/dobot_motion.egg-info/entry_points.txt
+writing requirements to ../../build/dobot_motion/dobot_motion.egg-info/requires.txt
+writing top-level names to ../../build/dobot_motion/dobot_motion.egg-info/top_level.txt
+writing manifest file '../../build/dobot_motion/dobot_motion.egg-info/SOURCES.txt'
+reading manifest file '../../build/dobot_motion/dobot_motion.egg-info/SOURCES.txt'
+writing manifest file '../../build/dobot_motion/dobot_motion.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build
+creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build/lib
+creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build/lib/dobot_motion
+copying dobot_motion/PTP_params_class.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build/lib/dobot_motion
+copying dobot_motion/sliding_rail_server.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build/lib/dobot_motion
+copying dobot_motion/PTP_server.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build/lib/dobot_motion
+copying dobot_motion/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build/lib/dobot_motion
+running install
+running install_lib
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build/lib/dobot_motion/PTP_params_class.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build/lib/dobot_motion/sliding_rail_server.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build/lib/dobot_motion/PTP_server.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build/lib/dobot_motion/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion/PTP_params_class.py to PTP_params_class.cpython-310.pyc
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion/sliding_rail_server.py to sliding_rail_server.cpython-310.pyc
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion/PTP_server.py to PTP_server.cpython-310.pyc
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/ament_index
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/ament_index/resource_index
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/ament_index/resource_index/packages
+copying resource/dobot_motion -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/ament_index/resource_index/packages
+copying package.xml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion
+copying launch/dobot_PTP.launch.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion
+copying launch/dobot_rail.launch.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion/config
+copying config/PTP_motion_params.yaml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion/config
+copying config/sliding_rail_params.yaml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion/config
+running install_egg_info
+Copying ../../build/dobot_motion/dobot_motion.egg-info to /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion-1.0.0-py3.10.egg-info
+running install_scripts
+Installing PTP_server script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/dobot_motion
+Installing sliding_rail_server script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/dobot_motion
+writing list of installed files to '/home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/install.log'

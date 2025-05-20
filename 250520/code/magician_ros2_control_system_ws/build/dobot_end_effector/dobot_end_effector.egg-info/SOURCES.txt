@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/dobot_end_effector/dobot_end_effector.egg-info/PKG-INFO
+../../build/dobot_end_effector/dobot_end_effector.egg-info/SOURCES.txt
+../../build/dobot_end_effector/dobot_end_effector.egg-info/dependency_links.txt
+../../build/dobot_end_effector/dobot_end_effector.egg-info/entry_points.txt
+../../build/dobot_end_effector/dobot_end_effector.egg-info/requires.txt
+../../build/dobot_end_effector/dobot_end_effector.egg-info/top_level.txt
+../../build/dobot_end_effector/dobot_end_effector.egg-info/zip-safe
+dobot_end_effector/__init__.py
+dobot_end_effector/gripper_server.py
+dobot_end_effector/suction_cup_server.py
+resource/dobot_end_effector
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

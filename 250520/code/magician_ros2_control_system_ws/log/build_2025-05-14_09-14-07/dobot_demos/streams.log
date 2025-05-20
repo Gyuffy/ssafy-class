@@ -1,0 +1,53 @@
+[1.427s] Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_demos': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_demos build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/install.log --single-version-externally-managed install_data
+[1.576s] running egg_info
+[1.577s] creating ../../build/dobot_demos/dobot_demos.egg-info
+[1.577s] writing ../../build/dobot_demos/dobot_demos.egg-info/PKG-INFO
+[1.578s] writing dependency_links to ../../build/dobot_demos/dobot_demos.egg-info/dependency_links.txt
+[1.578s] writing entry points to ../../build/dobot_demos/dobot_demos.egg-info/entry_points.txt
+[1.578s] writing requirements to ../../build/dobot_demos/dobot_demos.egg-info/requires.txt
+[1.578s] writing top-level names to ../../build/dobot_demos/dobot_demos.egg-info/top_level.txt
+[1.578s] writing manifest file '../../build/dobot_demos/dobot_demos.egg-info/SOURCES.txt'
+[1.579s] reading manifest file '../../build/dobot_demos/dobot_demos.egg-info/SOURCES.txt'
+[1.579s] writing manifest file '../../build/dobot_demos/dobot_demos.egg-info/SOURCES.txt'
+[1.580s] running build
+[1.580s] running build_py
+[1.580s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build
+[1.580s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib
+[1.580s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos
+[1.580s] copying dobot_demos/homing_client.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos
+[1.580s] copying dobot_demos/gripper_client.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos
+[1.580s] copying dobot_demos/PTP_client.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos
+[1.580s] copying dobot_demos/suction_cup_client.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos
+[1.580s] copying dobot_demos/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos
+[1.580s] copying dobot_demos/pick_and_place.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos
+[1.580s] running install
+[1.581s] running install_lib
+[1.581s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos
+[1.581s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos/homing_client.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos
+[1.581s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos/gripper_client.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos
+[1.581s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos/PTP_client.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos
+[1.581s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos/suction_cup_client.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos
+[1.581s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos
+[1.581s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos/pick_and_place.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos
+[1.581s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos/homing_client.py to homing_client.cpython-310.pyc
+[1.581s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos/gripper_client.py to gripper_client.cpython-310.pyc
+[1.581s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos/PTP_client.py to PTP_client.cpython-310.pyc
+[1.582s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos/suction_cup_client.py to suction_cup_client.cpython-310.pyc
+[1.582s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos/__init__.py to __init__.cpython-310.pyc
+[1.582s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos/pick_and_place.py to pick_and_place.cpython-310.pyc
+[1.582s] running install_data
+[1.583s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/ament_index
+[1.583s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/ament_index/resource_index
+[1.583s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/ament_index/resource_index/packages
+[1.583s] copying resource/dobot_demos -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/ament_index/resource_index/packages
+[1.583s] copying package.xml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/dobot_demos
+[1.583s] running install_egg_info
+[1.583s] Copying ../../build/dobot_demos/dobot_demos.egg-info to /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos-1.0.0-py3.10.egg-info
+[1.583s] running install_scripts
+[1.591s] Installing test_gripper script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/dobot_demos
+[1.591s] Installing test_homing script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/dobot_demos
+[1.592s] Installing test_pick_and_place script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/dobot_demos
+[1.592s] Installing test_point_to_point script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/dobot_demos
+[1.592s] Installing test_suction_cup script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/dobot_demos
+[1.592s] writing list of installed files to '/home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/install.log'
+[1.619s] Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_demos' returned '0': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_demos build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/install.log --single-version-externally-managed install_data

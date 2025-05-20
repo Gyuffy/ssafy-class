@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/dobot_bringup/dobot_bringup.egg-info/PKG-INFO
+../../build/dobot_bringup/dobot_bringup.egg-info/SOURCES.txt
+../../build/dobot_bringup/dobot_bringup.egg-info/dependency_links.txt
+../../build/dobot_bringup/dobot_bringup.egg-info/entry_points.txt
+../../build/dobot_bringup/dobot_bringup.egg-info/requires.txt
+../../build/dobot_bringup/dobot_bringup.egg-info/top_level.txt
+../../build/dobot_bringup/dobot_bringup.egg-info/zip-safe
+dobot_bringup/__init__.py
+dobot_bringup/set_tool_null.py
+launch/dobot_magician_control_system.launch.py
+resource/dobot_bringup
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

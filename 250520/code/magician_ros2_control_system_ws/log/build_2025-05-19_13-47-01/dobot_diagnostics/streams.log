@@ -1,0 +1,21 @@
+[1.850s] Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_diagnostics': PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_diagnostics build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/install.log --single-version-externally-managed install_data
+[2.037s] running egg_info
+[2.037s] writing ../../build/dobot_diagnostics/dobot_diagnostics.egg-info/PKG-INFO
+[2.037s] writing dependency_links to ../../build/dobot_diagnostics/dobot_diagnostics.egg-info/dependency_links.txt
+[2.037s] writing entry points to ../../build/dobot_diagnostics/dobot_diagnostics.egg-info/entry_points.txt
+[2.037s] writing requirements to ../../build/dobot_diagnostics/dobot_diagnostics.egg-info/requires.txt
+[2.037s] writing top-level names to ../../build/dobot_diagnostics/dobot_diagnostics.egg-info/top_level.txt
+[2.038s] reading manifest file '../../build/dobot_diagnostics/dobot_diagnostics.egg-info/SOURCES.txt'
+[2.039s] writing manifest file '../../build/dobot_diagnostics/dobot_diagnostics.egg-info/SOURCES.txt'
+[2.039s] running build
+[2.039s] running build_py
+[2.039s] running install
+[2.039s] running install_lib
+[2.040s] running install_data
+[2.040s] running install_egg_info
+[2.041s] removing '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/python3.10/site-packages/dobot_diagnostics-1.0.0-py3.10.egg-info' (and everything under it)
+[2.041s] Copying ../../build/dobot_diagnostics/dobot_diagnostics.egg-info to /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/python3.10/site-packages/dobot_diagnostics-1.0.0-py3.10.egg-info
+[2.042s] running install_scripts
+[2.055s] Installing alarms_parser script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/dobot_diagnostics
+[2.056s] writing list of installed files to '/home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/install.log'
+[2.072s] Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_diagnostics' returned '0': PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_diagnostics build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/install.log --single-version-externally-managed install_data

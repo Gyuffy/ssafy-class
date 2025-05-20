@@ -1,0 +1,21 @@
+[3.301s] Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_bringup': PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_bringup build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/install.log --single-version-externally-managed install_data
+[3.829s] running egg_info
+[3.829s] writing ../../build/dobot_bringup/dobot_bringup.egg-info/PKG-INFO
+[3.829s] writing dependency_links to ../../build/dobot_bringup/dobot_bringup.egg-info/dependency_links.txt
+[3.829s] writing entry points to ../../build/dobot_bringup/dobot_bringup.egg-info/entry_points.txt
+[3.829s] writing requirements to ../../build/dobot_bringup/dobot_bringup.egg-info/requires.txt
+[3.830s] writing top-level names to ../../build/dobot_bringup/dobot_bringup.egg-info/top_level.txt
+[3.830s] reading manifest file '../../build/dobot_bringup/dobot_bringup.egg-info/SOURCES.txt'
+[3.830s] writing manifest file '../../build/dobot_bringup/dobot_bringup.egg-info/SOURCES.txt'
+[3.831s] running build
+[3.831s] running build_py
+[3.831s] running install
+[3.831s] running install_lib
+[3.832s] running install_data
+[3.833s] running install_egg_info
+[3.835s] removing '/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/lib/python3.10/site-packages/dobot_bringup-1.0.0-py3.10.egg-info' (and everything under it)
+[3.841s] Copying ../../build/dobot_bringup/dobot_bringup.egg-info to /home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/lib/python3.10/site-packages/dobot_bringup-1.0.0-py3.10.egg-info
+[3.853s] running install_scripts
+[3.914s] Installing set_tool_null script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/lib/dobot_bringup
+[3.914s] writing list of installed files to '/home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/install.log'
+[3.975s] Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_bringup' returned '0': PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_bringup build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/install.log --single-version-externally-managed install_data

@@ -1,0 +1,51 @@
+running egg_info
+creating ../../build/dobot_demos/dobot_demos.egg-info
+writing ../../build/dobot_demos/dobot_demos.egg-info/PKG-INFO
+writing dependency_links to ../../build/dobot_demos/dobot_demos.egg-info/dependency_links.txt
+writing entry points to ../../build/dobot_demos/dobot_demos.egg-info/entry_points.txt
+writing requirements to ../../build/dobot_demos/dobot_demos.egg-info/requires.txt
+writing top-level names to ../../build/dobot_demos/dobot_demos.egg-info/top_level.txt
+writing manifest file '../../build/dobot_demos/dobot_demos.egg-info/SOURCES.txt'
+reading manifest file '../../build/dobot_demos/dobot_demos.egg-info/SOURCES.txt'
+writing manifest file '../../build/dobot_demos/dobot_demos.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build
+creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib
+creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos
+copying dobot_demos/homing_client.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos
+copying dobot_demos/gripper_client.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos
+copying dobot_demos/PTP_client.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos
+copying dobot_demos/suction_cup_client.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos
+copying dobot_demos/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos
+copying dobot_demos/pick_and_place.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos
+running install
+running install_lib
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos/homing_client.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos/gripper_client.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos/PTP_client.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos/suction_cup_client.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build/lib/dobot_demos/pick_and_place.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos/homing_client.py to homing_client.cpython-310.pyc
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos/gripper_client.py to gripper_client.cpython-310.pyc
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos/PTP_client.py to PTP_client.cpython-310.pyc
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos/suction_cup_client.py to suction_cup_client.cpython-310.pyc
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos/pick_and_place.py to pick_and_place.cpython-310.pyc
+running install_data
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/ament_index
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/ament_index/resource_index
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/ament_index/resource_index/packages
+copying resource/dobot_demos -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/ament_index/resource_index/packages
+copying package.xml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/dobot_demos
+running install_egg_info
+Copying ../../build/dobot_demos/dobot_demos.egg-info to /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages/dobot_demos-1.0.0-py3.10.egg-info
+running install_scripts
+Installing test_gripper script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/dobot_demos
+Installing test_homing script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/dobot_demos
+Installing test_pick_and_place script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/dobot_demos
+Installing test_point_to_point script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/dobot_demos
+Installing test_suction_cup script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/dobot_demos
+writing list of installed files to '/home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/install.log'

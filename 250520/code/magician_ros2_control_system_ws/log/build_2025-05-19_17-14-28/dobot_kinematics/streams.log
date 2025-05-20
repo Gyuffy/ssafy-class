@@ -1,0 +1,22 @@
+[2.762s] Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_kinematics': PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_kinematics build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/install.log --single-version-externally-managed install_data
+[3.186s] running egg_info
+[3.187s] writing ../../build/dobot_kinematics/dobot_kinematics.egg-info/PKG-INFO
+[3.187s] writing dependency_links to ../../build/dobot_kinematics/dobot_kinematics.egg-info/dependency_links.txt
+[3.187s] writing entry points to ../../build/dobot_kinematics/dobot_kinematics.egg-info/entry_points.txt
+[3.187s] writing requirements to ../../build/dobot_kinematics/dobot_kinematics.egg-info/requires.txt
+[3.187s] writing top-level names to ../../build/dobot_kinematics/dobot_kinematics.egg-info/top_level.txt
+[3.189s] reading manifest file '../../build/dobot_kinematics/dobot_kinematics.egg-info/SOURCES.txt'
+[3.190s] writing manifest file '../../build/dobot_kinematics/dobot_kinematics.egg-info/SOURCES.txt'
+[3.190s] running build
+[3.191s] running build_py
+[3.191s] running install
+[3.191s] running install_lib
+[3.193s] running install_data
+[3.193s] running install_egg_info
+[3.195s] removing '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics-1.0.0-py3.10.egg-info' (and everything under it)
+[3.195s] Copying ../../build/dobot_kinematics/dobot_kinematics.egg-info to /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics-1.0.0-py3.10.egg-info
+[3.196s] running install_scripts
+[3.211s] Installing trajectory_validator_client script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/dobot_kinematics
+[3.213s] Installing trajectory_validator_server script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/dobot_kinematics
+[3.214s] writing list of installed files to '/home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/install.log'
+[3.234s] Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_kinematics' returned '0': PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_kinematics build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/install.log --single-version-externally-managed install_data

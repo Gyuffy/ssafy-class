@@ -1,0 +1,37 @@
+[1.397s] Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_state_updater': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_state_updater build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater/install.log --single-version-externally-managed install_data
+[1.541s] running egg_info
+[1.542s] creating ../../build/dobot_state_updater/dobot_state_updater.egg-info
+[1.545s] writing ../../build/dobot_state_updater/dobot_state_updater.egg-info/PKG-INFO
+[1.545s] writing dependency_links to ../../build/dobot_state_updater/dobot_state_updater.egg-info/dependency_links.txt
+[1.545s] writing entry points to ../../build/dobot_state_updater/dobot_state_updater.egg-info/entry_points.txt
+[1.546s] writing requirements to ../../build/dobot_state_updater/dobot_state_updater.egg-info/requires.txt
+[1.546s] writing top-level names to ../../build/dobot_state_updater/dobot_state_updater.egg-info/top_level.txt
+[1.546s] writing manifest file '../../build/dobot_state_updater/dobot_state_updater.egg-info/SOURCES.txt'
+[1.546s] reading manifest file '../../build/dobot_state_updater/dobot_state_updater.egg-info/SOURCES.txt'
+[1.547s] writing manifest file '../../build/dobot_state_updater/dobot_state_updater.egg-info/SOURCES.txt'
+[1.547s] running build
+[1.547s] running build_py
+[1.548s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater/build
+[1.548s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater/build/lib
+[1.548s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater/build/lib/dobot_state_updater
+[1.548s] copying dobot_state_updater/dobot_state_publ.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater/build/lib/dobot_state_updater
+[1.548s] copying dobot_state_updater/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater/build/lib/dobot_state_updater
+[1.548s] running install
+[1.548s] running install_lib
+[1.549s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/lib/python3.10/site-packages/dobot_state_updater
+[1.549s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater/build/lib/dobot_state_updater/dobot_state_publ.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/lib/python3.10/site-packages/dobot_state_updater
+[1.550s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater/build/lib/dobot_state_updater/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/lib/python3.10/site-packages/dobot_state_updater
+[1.550s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/lib/python3.10/site-packages/dobot_state_updater/dobot_state_publ.py to dobot_state_publ.cpython-310.pyc
+[1.550s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/lib/python3.10/site-packages/dobot_state_updater/__init__.py to __init__.cpython-310.pyc
+[1.550s] running install_data
+[1.550s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/share/ament_index
+[1.550s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/share/ament_index/resource_index
+[1.551s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/share/ament_index/resource_index/packages
+[1.551s] copying resource/dobot_state_updater -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/share/ament_index/resource_index/packages
+[1.551s] copying package.xml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/share/dobot_state_updater
+[1.551s] running install_egg_info
+[1.554s] Copying ../../build/dobot_state_updater/dobot_state_updater.egg-info to /home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/lib/python3.10/site-packages/dobot_state_updater-1.0.0-py3.10.egg-info
+[1.554s] running install_scripts
+[1.559s] Installing state_publisher script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/lib/dobot_state_updater
+[1.559s] writing list of installed files to '/home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater/install.log'
+[1.590s] Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_state_updater' returned '0': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_state_updater build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater/install.log --single-version-externally-managed install_data

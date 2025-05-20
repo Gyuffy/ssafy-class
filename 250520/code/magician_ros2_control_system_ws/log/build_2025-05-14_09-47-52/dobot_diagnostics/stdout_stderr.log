@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/dobot_diagnostics/dobot_diagnostics.egg-info/PKG-INFO
+writing dependency_links to ../../build/dobot_diagnostics/dobot_diagnostics.egg-info/dependency_links.txt
+writing entry points to ../../build/dobot_diagnostics/dobot_diagnostics.egg-info/entry_points.txt
+writing requirements to ../../build/dobot_diagnostics/dobot_diagnostics.egg-info/requires.txt
+writing top-level names to ../../build/dobot_diagnostics/dobot_diagnostics.egg-info/top_level.txt
+reading manifest file '../../build/dobot_diagnostics/dobot_diagnostics.egg-info/SOURCES.txt'
+writing manifest file '../../build/dobot_diagnostics/dobot_diagnostics.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/python3.10/site-packages/dobot_diagnostics-1.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/dobot_diagnostics/dobot_diagnostics.egg-info to /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/python3.10/site-packages/dobot_diagnostics-1.0.0-py3.10.egg-info
+running install_scripts
+Installing alarms_parser script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/dobot_diagnostics
+writing list of installed files to '/home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/install.log'

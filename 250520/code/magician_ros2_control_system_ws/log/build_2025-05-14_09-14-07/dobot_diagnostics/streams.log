@@ -1,0 +1,44 @@
+[1.400s] Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_diagnostics': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_diagnostics build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/install.log --single-version-externally-managed install_data
+[1.543s] running egg_info
+[1.544s] creating ../../build/dobot_diagnostics/dobot_diagnostics.egg-info
+[1.544s] writing ../../build/dobot_diagnostics/dobot_diagnostics.egg-info/PKG-INFO
+[1.545s] writing dependency_links to ../../build/dobot_diagnostics/dobot_diagnostics.egg-info/dependency_links.txt
+[1.545s] writing entry points to ../../build/dobot_diagnostics/dobot_diagnostics.egg-info/entry_points.txt
+[1.545s] writing requirements to ../../build/dobot_diagnostics/dobot_diagnostics.egg-info/requires.txt
+[1.554s] writing top-level names to ../../build/dobot_diagnostics/dobot_diagnostics.egg-info/top_level.txt
+[1.554s] writing manifest file '../../build/dobot_diagnostics/dobot_diagnostics.egg-info/SOURCES.txt'
+[1.555s] reading manifest file '../../build/dobot_diagnostics/dobot_diagnostics.egg-info/SOURCES.txt'
+[1.555s] writing manifest file '../../build/dobot_diagnostics/dobot_diagnostics.egg-info/SOURCES.txt'
+[1.556s] running build
+[1.557s] running build_py
+[1.558s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/build
+[1.558s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/build/lib
+[1.558s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/build/lib/dobot_diagnostics
+[1.558s] copying dobot_diagnostics/alarms_parser.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/build/lib/dobot_diagnostics
+[1.559s] copying dobot_diagnostics/diagnostics_utils.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/build/lib/dobot_diagnostics
+[1.559s] copying dobot_diagnostics/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/build/lib/dobot_diagnostics
+[1.559s] running install
+[1.559s] running install_lib
+[1.559s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/python3.10/site-packages/dobot_diagnostics
+[1.559s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/build/lib/dobot_diagnostics/alarms_parser.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/python3.10/site-packages/dobot_diagnostics
+[1.559s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/build/lib/dobot_diagnostics/diagnostics_utils.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/python3.10/site-packages/dobot_diagnostics
+[1.559s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/build/lib/dobot_diagnostics/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/python3.10/site-packages/dobot_diagnostics
+[1.559s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/python3.10/site-packages/dobot_diagnostics/alarms_parser.py to alarms_parser.cpython-310.pyc
+[1.560s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/python3.10/site-packages/dobot_diagnostics/diagnostics_utils.py to diagnostics_utils.cpython-310.pyc
+[1.562s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/python3.10/site-packages/dobot_diagnostics/__init__.py to __init__.cpython-310.pyc
+[1.562s] running install_data
+[1.562s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/ament_index
+[1.563s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/ament_index/resource_index
+[1.563s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/ament_index/resource_index/packages
+[1.563s] copying resource/dobot_diagnostics -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/ament_index/resource_index/packages
+[1.563s] copying package.xml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/dobot_diagnostics
+[1.563s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/dobot_diagnostics/launch
+[1.563s] copying launch/alarms_analyzer.launch.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/dobot_diagnostics/launch
+[1.564s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/dobot_diagnostics/config
+[1.564s] copying config/analyzer_params.yaml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/dobot_diagnostics/config
+[1.565s] running install_egg_info
+[1.567s] Copying ../../build/dobot_diagnostics/dobot_diagnostics.egg-info to /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/python3.10/site-packages/dobot_diagnostics-1.0.0-py3.10.egg-info
+[1.569s] running install_scripts
+[1.579s] Installing alarms_parser script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/dobot_diagnostics
+[1.579s] writing list of installed files to '/home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/install.log'
+[1.599s] Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_diagnostics' returned '0': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_diagnostics build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/install.log --single-version-externally-managed install_data

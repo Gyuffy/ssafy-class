@@ -1,0 +1,93 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ssafy/magician_ros2_control_system_ws/build/dobot_description
+-- Install configuration: ""
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/launch
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/launch/display.launch.py
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/magicianLink1.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/stl
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/stl/realsense_gripper.stl
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/stl/dobot_gripper_extender.stl
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/IntelRealSenseD435i.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/magicianLink4.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/magicianGripper.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/jaw_left_extended.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/moving_gripper.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/magicianLink3.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/jaw_right_extended.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/jaw_right.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/magicianSuctionCup.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/magicianBase.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/magicianLink4_default.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/camera.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/suction_cup.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/magician_pen.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/gripper_core.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/jaw_left.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/dae/magicianLink2.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/urdf_models
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/urdf_models/pen.urdf
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/urdf_models/3DOF.urdf
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/urdf_models/sliding_rail_draft.urdf
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/urdf_models/suction_cup.urdf
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/urdf_models/dobot_with_rail.urdf
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/urdf_models/extended_gripper.urdf
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/urdf_models/gripper.urdf
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/additional_elements
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/additional_elements/sliding_rail.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/end_tools
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/end_tools/extended_gripper_collision_part2.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/end_tools/suction_cup_collision_part2.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/end_tools/gripper_collision_part2.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/end_tools/pen_collision_part1.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/end_tools/extended_gripper_collision_part1.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/end_tools/link4_collision.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/end_tools/gripper_collision_part1.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/end_tools/pen_collision_part2.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/end_tools/suction_cup_collision_part1.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/core
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/core/magicianLink1.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/core/magicianLink3.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/core/magicianBase.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/meshes/collision/core/magicianLink2.dae
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/rviz
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/rviz/urdf_full.rviz
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/rviz/urdf.rviz
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/model
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/model/magician_standalone.urdf.xacro
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/model/clean_model_no_macros.urdf
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/model/dobot_common.urdf.xacro
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/model/magician.urdf.xacro
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/ament_index/resource_index/package_run_dependencies/dobot_description
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/ament_index/resource_index/parent_prefix_path/dobot_description
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/environment/ament_prefix_path.sh
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/environment/path.sh
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/environment/path.dsv
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/local_setup.bash
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/local_setup.sh
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/local_setup.zsh
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/local_setup.dsv
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/package.dsv
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/ament_index/resource_index/packages/dobot_description
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/cmake/dobot_descriptionConfig.cmake
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/cmake/dobot_descriptionConfig-version.cmake
+-- Installing: /home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/package.xml

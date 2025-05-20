@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/dobot_bringup/dobot_bringup.egg-info
+writing ../../build/dobot_bringup/dobot_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../build/dobot_bringup/dobot_bringup.egg-info/dependency_links.txt
+writing entry points to ../../build/dobot_bringup/dobot_bringup.egg-info/entry_points.txt
+writing requirements to ../../build/dobot_bringup/dobot_bringup.egg-info/requires.txt
+writing top-level names to ../../build/dobot_bringup/dobot_bringup.egg-info/top_level.txt
+writing manifest file '../../build/dobot_bringup/dobot_bringup.egg-info/SOURCES.txt'
+reading manifest file '../../build/dobot_bringup/dobot_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../build/dobot_bringup/dobot_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/build
+creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/build/lib
+creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/build/lib/dobot_bringup
+copying dobot_bringup/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/build/lib/dobot_bringup
+copying dobot_bringup/set_tool_null.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/build/lib/dobot_bringup
+running install
+running install_lib
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/lib/python3.10/site-packages/dobot_bringup
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/build/lib/dobot_bringup/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/lib/python3.10/site-packages/dobot_bringup
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/build/lib/dobot_bringup/set_tool_null.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/lib/python3.10/site-packages/dobot_bringup
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/lib/python3.10/site-packages/dobot_bringup/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/lib/python3.10/site-packages/dobot_bringup/set_tool_null.py to set_tool_null.cpython-310.pyc
+running install_data
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/share/ament_index
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/share/ament_index/resource_index
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/share/ament_index/resource_index/packages
+copying resource/dobot_bringup -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/share/dobot_bringup
+copying launch/dobot_magician_control_system.launch.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/share/dobot_bringup
+running install_egg_info
+Copying ../../build/dobot_bringup/dobot_bringup.egg-info to /home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/lib/python3.10/site-packages/dobot_bringup-1.0.0-py3.10.egg-info
+running install_scripts
+Installing set_tool_null script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/lib/dobot_bringup
+writing list of installed files to '/home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/install.log'

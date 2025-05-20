@@ -1,0 +1,773 @@
+[0.067s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.067s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7682ba15c7c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7682ba133df0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7682ba133df0>>)
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.173s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ssafy/magician_ros2_control_system_ws'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_bringup' with type 'ros.ament_python' and name 'dobot_bringup'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_control_panel) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_control_panel) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_control_panel) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_control_panel) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_control_panel) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_control_panel) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_control_panel) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_control_panel) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_control_panel) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_control_panel' with type 'ros.ament_python' and name 'dobot_control_panel'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_demos) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_demos) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_demos) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_demos) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_demos) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_demos) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_demos) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_demos) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_demos' with type 'ros.ament_python' and name 'dobot_demos'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_description) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_description) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_description) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_description) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_description) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_description) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_description) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_description) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_description' with type 'ros.ament_cmake' and name 'dobot_description'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_diagnostics) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_diagnostics) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_diagnostics) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_diagnostics) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_diagnostics) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_diagnostics) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_diagnostics) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_diagnostics) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_diagnostics' with type 'ros.ament_python' and name 'dobot_diagnostics'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_driver) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_driver) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_driver) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_driver) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_driver) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_driver) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_driver) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_driver) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_driver' with type 'ros.ament_cmake' and name 'dobot_driver'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_end_effector) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_end_effector) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_end_effector) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_end_effector) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_end_effector) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_end_effector) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_end_effector) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_end_effector) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_end_effector) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_end_effector' with type 'ros.ament_python' and name 'dobot_end_effector'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_homing) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_homing) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_homing) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_homing) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_homing) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_homing) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_homing) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_homing) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_homing) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_homing' with type 'ros.ament_python' and name 'dobot_homing'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_kinematics) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_kinematics) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_kinematics) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_kinematics) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_kinematics) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_kinematics) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_kinematics) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_kinematics) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_kinematics) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_kinematics' with type 'ros.ament_python' and name 'dobot_kinematics'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_motion) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_motion) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_motion) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_motion) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_motion) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_motion) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_motion) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_motion) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_motion) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_motion' with type 'ros.ament_python' and name 'dobot_motion'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_msgs) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_msgs) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_msgs) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_msgs) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_msgs) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_msgs) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_msgs) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_msgs) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_msgs' with type 'ros.ament_cmake' and name 'dobot_msgs'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_state_updater) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_state_updater) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_state_updater) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_state_updater) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_state_updater) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_state_updater) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_state_updater) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_state_updater) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_state_updater) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_state_updater' with type 'ros.ament_python' and name 'dobot_state_updater'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_visualization_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_visualization_tools) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_visualization_tools) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_visualization_tools) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_visualization_tools) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_visualization_tools) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_visualization_tools) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_visualization_tools) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_visualization_tools) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_visualization_tools' with type 'ros.ament_python' and name 'dobot_visualization_tools'
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.212s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ssafy/ml_ws/install
+[0.213s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/humble
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.239s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup', 'merge_install': False, 'path': '/home/ssafy/magician_ros2_control_system_ws/src/dobot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_control_panel' build argument 'cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_control_panel' build argument 'cmake_target' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_control_panel' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_control_panel' build argument 'cmake_clean_cache' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_control_panel' build argument 'cmake_clean_first' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_control_panel' build argument 'cmake_force_configure' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_control_panel' build argument 'ament_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_control_panel' build argument 'catkin_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_control_panel' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.240s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_control_panel' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel', 'merge_install': False, 'path': '/home/ssafy/magician_ros2_control_system_ws/src/dobot_control_panel', 'symlink_install': False, 'test_result_base': None}
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_description' build argument 'cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_description' build argument 'cmake_target' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.240s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/magician_ros2_control_system_ws/build/dobot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description', 'merge_install': False, 'path': '/home/ssafy/magician_ros2_control_system_ws/src/dobot_description', 'symlink_install': False, 'test_result_base': None}
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_driver' build argument 'cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_driver' build argument 'cmake_target' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.240s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/magician_ros2_control_system_ws/build/dobot_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver', 'merge_install': False, 'path': '/home/ssafy/magician_ros2_control_system_ws/src/dobot_driver', 'symlink_install': False, 'test_result_base': None}
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs' build argument 'cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs' build argument 'cmake_target' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.241s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs', 'merge_install': False, 'path': '/home/ssafy/magician_ros2_control_system_ws/src/dobot_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_visualization_tools' build argument 'cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_visualization_tools' build argument 'cmake_target' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_visualization_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_visualization_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_visualization_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_visualization_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_visualization_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_visualization_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_visualization_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.241s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_visualization_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools', 'merge_install': False, 'path': '/home/ssafy/magician_ros2_control_system_ws/src/dobot_visualization_tools', 'symlink_install': False, 'test_result_base': None}
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_demos' build argument 'cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_demos' build argument 'cmake_target' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.241s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/magician_ros2_control_system_ws/build/dobot_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos', 'merge_install': False, 'path': '/home/ssafy/magician_ros2_control_system_ws/src/dobot_demos', 'symlink_install': False, 'test_result_base': None}
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_diagnostics' build argument 'cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_diagnostics' build argument 'cmake_target' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_diagnostics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_diagnostics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_diagnostics' build argument 'cmake_clean_first' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_diagnostics' build argument 'cmake_force_configure' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_diagnostics' build argument 'ament_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_diagnostics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'dobot_diagnostics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.242s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_diagnostics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics', 'merge_install': False, 'path': '/home/ssafy/magician_ros2_control_system_ws/src/dobot_diagnostics', 'symlink_install': False, 'test_result_base': None}
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_end_effector' build argument 'cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_end_effector' build argument 'cmake_target' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_end_effector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_end_effector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_end_effector' build argument 'cmake_clean_first' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_end_effector' build argument 'cmake_force_configure' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_end_effector' build argument 'ament_cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_end_effector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_end_effector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.242s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_end_effector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector', 'merge_install': False, 'path': '/home/ssafy/magician_ros2_control_system_ws/src/dobot_end_effector', 'symlink_install': False, 'test_result_base': None}
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_homing' build argument 'cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_homing' build argument 'cmake_target' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_homing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_homing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_homing' build argument 'cmake_clean_first' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_homing' build argument 'cmake_force_configure' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_homing' build argument 'ament_cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_homing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_homing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.242s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_homing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/magician_ros2_control_system_ws/build/dobot_homing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing', 'merge_install': False, 'path': '/home/ssafy/magician_ros2_control_system_ws/src/dobot_homing', 'symlink_install': False, 'test_result_base': None}
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_kinematics' build argument 'cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_kinematics' build argument 'cmake_target' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_kinematics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_kinematics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_kinematics' build argument 'cmake_clean_first' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_kinematics' build argument 'cmake_force_configure' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_kinematics' build argument 'ament_cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_kinematics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'dobot_kinematics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.242s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_kinematics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics', 'merge_install': False, 'path': '/home/ssafy/magician_ros2_control_system_ws/src/dobot_kinematics', 'symlink_install': False, 'test_result_base': None}
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'dobot_motion' build argument 'cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'dobot_motion' build argument 'cmake_target' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'dobot_motion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'dobot_motion' build argument 'cmake_clean_cache' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'dobot_motion' build argument 'cmake_clean_first' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'dobot_motion' build argument 'cmake_force_configure' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'dobot_motion' build argument 'ament_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'dobot_motion' build argument 'catkin_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'dobot_motion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.243s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_motion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/magician_ros2_control_system_ws/build/dobot_motion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion', 'merge_install': False, 'path': '/home/ssafy/magician_ros2_control_system_ws/src/dobot_motion', 'symlink_install': False, 'test_result_base': None}
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'dobot_state_updater' build argument 'cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'dobot_state_updater' build argument 'cmake_target' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'dobot_state_updater' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'dobot_state_updater' build argument 'cmake_clean_cache' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'dobot_state_updater' build argument 'cmake_clean_first' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'dobot_state_updater' build argument 'cmake_force_configure' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'dobot_state_updater' build argument 'ament_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'dobot_state_updater' build argument 'catkin_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'dobot_state_updater' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.243s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_state_updater' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater', 'merge_install': False, 'path': '/home/ssafy/magician_ros2_control_system_ws/src/dobot_state_updater', 'symlink_install': False, 'test_result_base': None}
+[0.243s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.244s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.244s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_msgs' with build type 'ament_cmake'
+[0.244s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_msgs'
+[0.246s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.249s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_bringup' with build type 'ament_python'
+[0.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_bringup', 'ament_prefix_path')
+[0.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/share/dobot_bringup/hook/ament_prefix_path.ps1'
+[0.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/share/dobot_bringup/hook/ament_prefix_path.dsv'
+[0.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/share/dobot_bringup/hook/ament_prefix_path.sh'
+[0.251s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.251s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.253s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_control_panel' with build type 'ament_python'
+[0.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_control_panel', 'ament_prefix_path')
+[0.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/hook/ament_prefix_path.ps1'
+[0.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/hook/ament_prefix_path.dsv'
+[0.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/hook/ament_prefix_path.sh'
+[0.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.254s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.256s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_description' with build type 'ament_cmake'
+[0.256s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_description'
+[0.256s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.256s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.258s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_driver' with build type 'ament_cmake'
+[0.258s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_driver'
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_visualization_tools' with build type 'ament_python'
+[0.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_visualization_tools', 'ament_prefix_path')
+[0.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/hook/ament_prefix_path.ps1'
+[0.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/hook/ament_prefix_path.dsv'
+[0.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/hook/ament_prefix_path.sh'
+[0.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs': CMAKE_PREFIX_PATH=/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs -- -j20 -l20
+[0.433s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_bringup'
+[0.433s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.433s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.596s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_control_panel'
+[0.596s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.596s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_description': CMAKE_PREFIX_PATH=/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/magician_ros2_control_system_ws/build/dobot_description -- -j20 -l20
+[0.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_driver': CMAKE_PREFIX_PATH=/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/magician_ros2_control_system_ws/build/dobot_driver -- -j20 -l20
+[0.763s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_visualization_tools'
+[0.763s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.764s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs -- -j20 -l20
+[0.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs': CMAKE_PREFIX_PATH=/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs
+[0.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_description' returned '0': CMAKE_PREFIX_PATH=/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/magician_ros2_control_system_ws/build/dobot_description -- -j20 -l20
+[0.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_description': CMAKE_PREFIX_PATH=/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/magician_ros2_control_system_ws/build/dobot_description
+[0.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_description)
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description' for CMake module files
+[0.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_description' returned '0': CMAKE_PREFIX_PATH=/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/magician_ros2_control_system_ws/build/dobot_description
+[0.816s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description' for CMake config files
+[0.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_description', 'cmake_prefix_path')
+[0.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/hook/cmake_prefix_path.ps1'
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/hook/cmake_prefix_path.dsv'
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/hook/cmake_prefix_path.sh'
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/bin'
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/lib/pkgconfig/dobot_description.pc'
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/lib/python3.10/site-packages'
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/bin'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/package.ps1'
+[0.822s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/package.dsv'
+[0.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/package.sh'
+[0.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/package.bash'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/package.zsh'
+[0.827s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/colcon-core/packages/dobot_description)
+[0.829s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_description)
+[0.829s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description' for CMake module files
+[0.831s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description' for CMake config files
+[0.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_description', 'cmake_prefix_path')
+[0.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/hook/cmake_prefix_path.ps1'
+[0.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/hook/cmake_prefix_path.dsv'
+[0.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/hook/cmake_prefix_path.sh'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/bin'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/lib/pkgconfig/dobot_description.pc'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/lib/python3.10/site-packages'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/bin'
+[0.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/package.ps1'
+[0.832s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/package.dsv'
+[0.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/package.sh'
+[0.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/package.bash'
+[0.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/dobot_description/package.zsh'
+[0.834s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/magician_ros2_control_system_ws/install/dobot_description/share/colcon-core/packages/dobot_description)
+[0.834s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_msgs)
+[0.835s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs' for CMake module files
+[0.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs
+[0.835s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs' for CMake config files
+[0.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_msgs', 'cmake_prefix_path')
+[0.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/hook/cmake_prefix_path.ps1'
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/hook/cmake_prefix_path.dsv'
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/hook/cmake_prefix_path.sh'
+[0.836s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib'
+[0.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_msgs', 'ld_library_path_lib')
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/hook/ld_library_path_lib.ps1'
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/hook/ld_library_path_lib.dsv'
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/hook/ld_library_path_lib.sh'
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/bin'
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib/pkgconfig/dobot_msgs.pc'
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib/python3.10/site-packages'
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/bin'
+[0.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/package.ps1'
+[0.838s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/package.dsv'
+[0.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/package.sh'
+[0.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/package.bash'
+[0.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/package.zsh'
+[0.838s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/colcon-core/packages/dobot_msgs)
+[0.839s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_msgs)
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs' for CMake module files
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs' for CMake config files
+[0.839s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_msgs', 'cmake_prefix_path')
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/hook/cmake_prefix_path.ps1'
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/hook/cmake_prefix_path.dsv'
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/hook/cmake_prefix_path.sh'
+[0.840s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib'
+[0.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_msgs', 'ld_library_path_lib')
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/hook/ld_library_path_lib.ps1'
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/hook/ld_library_path_lib.dsv'
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/hook/ld_library_path_lib.sh'
+[0.841s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/bin'
+[0.841s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib/pkgconfig/dobot_msgs.pc'
+[0.841s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib/python3.10/site-packages'
+[0.841s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/bin'
+[0.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/package.ps1'
+[0.842s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/package.dsv'
+[0.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/package.sh'
+[0.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/package.bash'
+[0.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/dobot_msgs/package.zsh'
+[0.843s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/share/colcon-core/packages/dobot_msgs)
+[0.843s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_demos' with build type 'ament_python'
+[0.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_demos', 'ament_prefix_path')
+[0.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/dobot_demos/hook/ament_prefix_path.ps1'
+[0.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/dobot_demos/hook/ament_prefix_path.dsv'
+[0.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/dobot_demos/hook/ament_prefix_path.sh'
+[0.844s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.844s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.846s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_diagnostics' with build type 'ament_python'
+[0.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_diagnostics', 'ament_prefix_path')
+[0.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/dobot_diagnostics/hook/ament_prefix_path.ps1'
+[0.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/dobot_diagnostics/hook/ament_prefix_path.dsv'
+[0.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/dobot_diagnostics/hook/ament_prefix_path.sh'
+[0.848s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.848s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.850s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_end_effector' with build type 'ament_python'
+[0.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_end_effector', 'ament_prefix_path')
+[0.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/share/dobot_end_effector/hook/ament_prefix_path.ps1'
+[0.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/share/dobot_end_effector/hook/ament_prefix_path.dsv'
+[0.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/share/dobot_end_effector/hook/ament_prefix_path.sh'
+[0.851s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.851s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.853s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_homing' with build type 'ament_python'
+[0.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_homing', 'ament_prefix_path')
+[0.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/dobot_homing/hook/ament_prefix_path.ps1'
+[0.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/dobot_homing/hook/ament_prefix_path.dsv'
+[0.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/dobot_homing/hook/ament_prefix_path.sh'
+[0.855s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.855s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.856s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_kinematics' with build type 'ament_python'
+[0.856s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_kinematics', 'ament_prefix_path')
+[0.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/share/dobot_kinematics/hook/ament_prefix_path.ps1'
+[0.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/share/dobot_kinematics/hook/ament_prefix_path.dsv'
+[0.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/share/dobot_kinematics/hook/ament_prefix_path.sh'
+[0.857s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.857s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.859s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_motion' with build type 'ament_python'
+[0.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_motion', 'ament_prefix_path')
+[0.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion/hook/ament_prefix_path.ps1'
+[0.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion/hook/ament_prefix_path.dsv'
+[0.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion/hook/ament_prefix_path.sh'
+[0.860s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.860s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.862s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_state_updater' with build type 'ament_python'
+[0.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_state_updater', 'ament_prefix_path')
+[0.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/share/dobot_state_updater/hook/ament_prefix_path.ps1'
+[0.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/share/dobot_state_updater/hook/ament_prefix_path.dsv'
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/share/dobot_state_updater/hook/ament_prefix_path.sh'
+[0.863s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.863s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_driver' returned '0': CMAKE_PREFIX_PATH=/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/magician_ros2_control_system_ws/build/dobot_driver -- -j20 -l20
+[0.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_driver': CMAKE_PREFIX_PATH=/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/magician_ros2_control_system_ws/build/dobot_driver
+[1.042s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_demos'
+[1.042s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.042s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.227s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_diagnostics'
+[1.227s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.227s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.392s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_end_effector'
+[1.392s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.392s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.556s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_homing'
+[1.556s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.556s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.722s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_kinematics'
+[1.722s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.722s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.893s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_motion'
+[1.893s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.893s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.059s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_state_updater'
+[2.059s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.059s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_bringup': PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_bringup build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/install.log --single-version-externally-managed install_data
+[2.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_control_panel': PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_control_panel build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/install.log --single-version-externally-managed install_data
+[2.065s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_driver)
+[2.065s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver' for CMake module files
+[2.066s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver' for CMake config files
+[2.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_visualization_tools': PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_visualization_tools build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools/install.log --single-version-externally-managed install_data
+[2.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/magician_ros2_control_system_ws/build/dobot_driver' returned '0': CMAKE_PREFIX_PATH=/home/ssafy/ml_ws/install/lecture:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/magician_ros2_control_system_ws/build/dobot_driver
+[2.066s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_driver', 'cmake_prefix_path')
+[2.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/hook/cmake_prefix_path.ps1'
+[2.066s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/hook/cmake_prefix_path.dsv'
+[2.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/hook/cmake_prefix_path.sh'
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/bin'
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/lib/pkgconfig/dobot_driver.pc'
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/lib/python3.10/site-packages'
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/bin'
+[2.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/package.ps1'
+[2.068s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/package.dsv'
+[2.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/package.sh'
+[2.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/package.bash'
+[2.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/package.zsh'
+[2.068s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/colcon-core/packages/dobot_driver)
+[2.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_driver)
+[2.069s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver' for CMake module files
+[2.069s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver' for CMake config files
+[2.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_driver', 'cmake_prefix_path')
+[2.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/hook/cmake_prefix_path.ps1'
+[2.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/hook/cmake_prefix_path.dsv'
+[2.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/hook/cmake_prefix_path.sh'
+[2.070s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/bin'
+[2.070s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/lib/pkgconfig/dobot_driver.pc'
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/lib/python3.10/site-packages'
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/bin'
+[2.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/package.ps1'
+[2.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/package.dsv'
+[2.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/package.sh'
+[2.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/package.bash'
+[2.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/dobot_driver/package.zsh'
+[2.072s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/magician_ros2_control_system_ws/install/dobot_driver/share/colcon-core/packages/dobot_driver)
+[2.253s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools' for CMake module files
+[2.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_visualization_tools' returned '0': PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_visualization_tools build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools/install.log --single-version-externally-managed install_data
+[2.254s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools' for CMake config files
+[2.254s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib'
+[2.254s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/bin'
+[2.254s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib/pkgconfig/dobot_visualization_tools.pc'
+[2.255s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib/python3.10/site-packages'
+[2.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_visualization_tools', 'pythonpath')
+[2.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/hook/pythonpath.ps1'
+[2.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/hook/pythonpath.dsv'
+[2.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/hook/pythonpath.sh'
+[2.256s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/bin'
+[2.256s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_visualization_tools)
+[2.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/package.ps1'
+[2.257s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/package.dsv'
+[2.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/package.sh'
+[2.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/package.bash'
+[2.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/package.zsh'
+[2.258s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/share/colcon-core/packages/dobot_visualization_tools)
+[2.272s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup' for CMake module files
+[2.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_bringup' returned '0': PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_bringup build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_bringup/install.log --single-version-externally-managed install_data
+[2.273s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup' for CMake config files
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/lib'
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/bin'
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/lib/pkgconfig/dobot_bringup.pc'
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/lib/python3.10/site-packages'
+[2.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_bringup', 'pythonpath')
+[2.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/share/dobot_bringup/hook/pythonpath.ps1'
+[2.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/share/dobot_bringup/hook/pythonpath.dsv'
+[2.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/share/dobot_bringup/hook/pythonpath.sh'
+[2.275s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/bin'
+[2.275s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_bringup)
+[2.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/share/dobot_bringup/package.ps1'
+[2.276s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/share/dobot_bringup/package.dsv'
+[2.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/share/dobot_bringup/package.sh'
+[2.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/share/dobot_bringup/package.bash'
+[2.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/share/dobot_bringup/package.zsh'
+[2.277s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/magician_ros2_control_system_ws/install/dobot_bringup/share/colcon-core/packages/dobot_bringup)
+[2.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_homing': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_homing build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/install.log --single-version-externally-managed install_data
+[2.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_end_effector': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_end_effector build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/install.log --single-version-externally-managed install_data
+[2.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_kinematics': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_kinematics build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/install.log --single-version-externally-managed install_data
+[2.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_demos': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_demos build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/install.log --single-version-externally-managed install_data
+[2.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_state_updater': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_state_updater build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater/install.log --single-version-externally-managed install_data
+[2.434s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel' for CMake module files
+[2.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_control_panel' returned '0': PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_control_panel build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/install.log --single-version-externally-managed install_data
+[2.435s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel' for CMake config files
+[2.436s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/lib'
+[2.436s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/bin'
+[2.436s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/lib/pkgconfig/dobot_control_panel.pc'
+[2.436s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/lib/python3.10/site-packages'
+[2.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_control_panel', 'pythonpath')
+[2.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/hook/pythonpath.ps1'
+[2.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/hook/pythonpath.dsv'
+[2.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/hook/pythonpath.sh'
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/bin'
+[2.438s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_control_panel)
+[2.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/package.ps1'
+[2.439s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/package.dsv'
+[2.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/package.sh'
+[2.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/package.bash'
+[2.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/package.zsh'
+[2.440s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/colcon-core/packages/dobot_control_panel)
+[2.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_motion': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_motion build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/install.log --single-version-externally-managed install_data
+[2.519s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing' for CMake module files
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing' for CMake config files
+[2.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_diagnostics': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_diagnostics build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/install.log --single-version-externally-managed install_data
+[2.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_homing' returned '0': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_homing build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/install.log --single-version-externally-managed install_data
+[2.522s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib'
+[2.522s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/bin'
+[2.522s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/pkgconfig/dobot_homing.pc'
+[2.522s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages'
+[2.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_homing', 'pythonpath')
+[2.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/dobot_homing/hook/pythonpath.ps1'
+[2.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/dobot_homing/hook/pythonpath.dsv'
+[2.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/dobot_homing/hook/pythonpath.sh'
+[2.525s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/bin'
+[2.525s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_homing)
+[2.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/dobot_homing/package.ps1'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/dobot_homing/package.dsv'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/dobot_homing/package.sh'
+[2.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/dobot_homing/package.bash'
+[2.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/dobot_homing/package.zsh'
+[2.527s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/colcon-core/packages/dobot_homing)
+[2.529s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector' for CMake module files
+[2.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_end_effector' returned '0': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_end_effector build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/install.log --single-version-externally-managed install_data
+[2.530s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector' for CMake config files
+[2.530s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/lib'
+[2.530s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/bin'
+[2.531s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/lib/pkgconfig/dobot_end_effector.pc'
+[2.531s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/lib/python3.10/site-packages'
+[2.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_end_effector', 'pythonpath')
+[2.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/share/dobot_end_effector/hook/pythonpath.ps1'
+[2.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/share/dobot_end_effector/hook/pythonpath.dsv'
+[2.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/share/dobot_end_effector/hook/pythonpath.sh'
+[2.533s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/bin'
+[2.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_end_effector)
+[2.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/share/dobot_end_effector/package.ps1'
+[2.534s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/share/dobot_end_effector/package.dsv'
+[2.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/share/dobot_end_effector/package.sh'
+[2.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/share/dobot_end_effector/package.bash'
+[2.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/share/dobot_end_effector/package.zsh'
+[2.536s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/share/colcon-core/packages/dobot_end_effector)
+[2.537s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics' for CMake module files
+[2.537s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics' for CMake config files
+[2.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_kinematics' returned '0': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_kinematics build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/install.log --single-version-externally-managed install_data
+[2.538s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib'
+[2.538s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/bin'
+[2.538s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/pkgconfig/dobot_kinematics.pc'
+[2.539s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages'
+[2.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_kinematics', 'pythonpath')
+[2.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/share/dobot_kinematics/hook/pythonpath.ps1'
+[2.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/share/dobot_kinematics/hook/pythonpath.dsv'
+[2.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/share/dobot_kinematics/hook/pythonpath.sh'
+[2.540s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/bin'
+[2.541s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_kinematics)
+[2.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/share/dobot_kinematics/package.ps1'
+[2.541s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/share/dobot_kinematics/package.dsv'
+[2.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/share/dobot_kinematics/package.sh'
+[2.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/share/dobot_kinematics/package.bash'
+[2.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/share/dobot_kinematics/package.zsh'
+[2.543s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/share/colcon-core/packages/dobot_kinematics)
+[2.548s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos' for CMake module files
+[2.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_demos' returned '0': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_demos build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_demos/install.log --single-version-externally-managed install_data
+[2.549s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos' for CMake config files
+[2.549s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib'
+[2.549s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/bin'
+[2.549s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/pkgconfig/dobot_demos.pc'
+[2.550s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/lib/python3.10/site-packages'
+[2.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_demos', 'pythonpath')
+[2.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/dobot_demos/hook/pythonpath.ps1'
+[2.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/dobot_demos/hook/pythonpath.dsv'
+[2.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/dobot_demos/hook/pythonpath.sh'
+[2.551s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/bin'
+[2.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_demos)
+[2.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/dobot_demos/package.ps1'
+[2.551s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/dobot_demos/package.dsv'
+[2.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/dobot_demos/package.sh'
+[2.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/dobot_demos/package.bash'
+[2.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/dobot_demos/package.zsh'
+[2.552s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/magician_ros2_control_system_ws/install/dobot_demos/share/colcon-core/packages/dobot_demos)
+[2.606s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater' for CMake module files
+[2.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_state_updater' returned '0': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_state_updater build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_state_updater/install.log --single-version-externally-managed install_data
+[2.606s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater' for CMake config files
+[2.607s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/lib'
+[2.607s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/bin'
+[2.607s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/lib/pkgconfig/dobot_state_updater.pc'
+[2.607s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/lib/python3.10/site-packages'
+[2.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_state_updater', 'pythonpath')
+[2.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/share/dobot_state_updater/hook/pythonpath.ps1'
+[2.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/share/dobot_state_updater/hook/pythonpath.dsv'
+[2.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/share/dobot_state_updater/hook/pythonpath.sh'
+[2.608s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/bin'
+[2.608s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_state_updater)
+[2.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/share/dobot_state_updater/package.ps1'
+[2.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/share/dobot_state_updater/package.dsv'
+[2.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/share/dobot_state_updater/package.sh'
+[2.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/share/dobot_state_updater/package.bash'
+[2.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/share/dobot_state_updater/package.zsh'
+[2.610s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/magician_ros2_control_system_ws/install/dobot_state_updater/share/colcon-core/packages/dobot_state_updater)
+[2.631s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion' for CMake module files
+[2.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_motion' returned '0': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_motion build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/install.log --single-version-externally-managed install_data
+[2.632s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion' for CMake config files
+[2.632s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib'
+[2.632s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/bin'
+[2.632s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/pkgconfig/dobot_motion.pc'
+[2.632s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages'
+[2.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_motion', 'pythonpath')
+[2.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion/hook/pythonpath.ps1'
+[2.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion/hook/pythonpath.dsv'
+[2.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion/hook/pythonpath.sh'
+[2.633s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/bin'
+[2.633s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_motion)
+[2.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion/package.ps1'
+[2.634s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion/package.dsv'
+[2.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion/package.sh'
+[2.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion/package.bash'
+[2.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion/package.zsh'
+[2.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/colcon-core/packages/dobot_motion)
+[2.706s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics' for CMake module files
+[2.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_diagnostics' returned '0': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_diagnostics build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_diagnostics/install.log --single-version-externally-managed install_data
+[2.706s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics' for CMake config files
+[2.706s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib'
+[2.707s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/bin'
+[2.707s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/pkgconfig/dobot_diagnostics.pc'
+[2.707s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/lib/python3.10/site-packages'
+[2.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_diagnostics', 'pythonpath')
+[2.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/dobot_diagnostics/hook/pythonpath.ps1'
+[2.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/dobot_diagnostics/hook/pythonpath.dsv'
+[2.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/dobot_diagnostics/hook/pythonpath.sh'
+[2.708s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/bin'
+[2.708s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_diagnostics)
+[2.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/dobot_diagnostics/package.ps1'
+[2.709s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/dobot_diagnostics/package.dsv'
+[2.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/dobot_diagnostics/package.sh'
+[2.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/dobot_diagnostics/package.bash'
+[2.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/dobot_diagnostics/package.zsh'
+[2.709s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/magician_ros2_control_system_ws/install/dobot_diagnostics/share/colcon-core/packages/dobot_diagnostics)
+[2.710s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.710s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.710s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.710s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.714s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.714s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.714s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.725s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.725s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ssafy/magician_ros2_control_system_ws/install/local_setup.ps1'
+[2.726s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ssafy/magician_ros2_control_system_ws/install/_local_setup_util_ps1.py'
+[2.728s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ssafy/magician_ros2_control_system_ws/install/setup.ps1'
+[2.729s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ssafy/magician_ros2_control_system_ws/install/local_setup.sh'
+[2.729s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ssafy/magician_ros2_control_system_ws/install/_local_setup_util_sh.py'
+[2.730s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ssafy/magician_ros2_control_system_ws/install/setup.sh'
+[2.730s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ssafy/magician_ros2_control_system_ws/install/local_setup.bash'
+[2.731s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ssafy/magician_ros2_control_system_ws/install/setup.bash'
+[2.731s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ssafy/magician_ros2_control_system_ws/install/local_setup.zsh'
+[2.732s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ssafy/magician_ros2_control_system_ws/install/setup.zsh'

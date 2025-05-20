@@ -1,0 +1,60 @@
+[0.715s] Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_control_panel': PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_control_panel build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/install.log --single-version-externally-managed install_data
+[0.895s] running egg_info
+[0.895s] creating ../../build/dobot_control_panel/dobot_control_panel.egg-info
+[0.895s] writing ../../build/dobot_control_panel/dobot_control_panel.egg-info/PKG-INFO
+[0.896s] writing dependency_links to ../../build/dobot_control_panel/dobot_control_panel.egg-info/dependency_links.txt
+[0.896s] writing entry points to ../../build/dobot_control_panel/dobot_control_panel.egg-info/entry_points.txt
+[0.896s] writing requirements to ../../build/dobot_control_panel/dobot_control_panel.egg-info/requires.txt
+[0.896s] writing top-level names to ../../build/dobot_control_panel/dobot_control_panel.egg-info/top_level.txt
+[0.896s] writing manifest file '../../build/dobot_control_panel/dobot_control_panel.egg-info/SOURCES.txt'
+[0.897s] reading manifest file '../../build/dobot_control_panel/dobot_control_panel.egg-info/SOURCES.txt'
+[0.897s] writing manifest file '../../build/dobot_control_panel/dobot_control_panel.egg-info/SOURCES.txt'
+[0.898s] running build
+[0.898s] running build_py
+[0.898s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/build
+[0.898s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/build/lib
+[0.898s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/build/lib/dobot_control_panel
+[0.898s] copying dobot_control_panel/main.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/build/lib/dobot_control_panel
+[0.898s] copying dobot_control_panel/dobot_control_panel_widget.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/build/lib/dobot_control_panel
+[0.898s] copying dobot_control_panel/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/build/lib/dobot_control_panel
+[0.898s] copying dobot_control_panel/ros2_dobot_control_panel.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/build/lib/dobot_control_panel
+[0.898s] running install
+[0.898s] running install_lib
+[0.899s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel
+[0.899s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/build/lib/dobot_control_panel/main.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel
+[0.899s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/build/lib/dobot_control_panel/dobot_control_panel_widget.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel
+[0.899s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/build/lib/dobot_control_panel/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel
+[0.899s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/build/lib/dobot_control_panel/ros2_dobot_control_panel.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel
+[0.899s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel/main.py to main.cpython-310.pyc
+[0.899s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel/dobot_control_panel_widget.py to dobot_control_panel_widget.cpython-310.pyc
+[0.902s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel/__init__.py to __init__.cpython-310.pyc
+[0.902s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel/ros2_dobot_control_panel.py to ros2_dobot_control_panel.cpython-310.pyc
+[0.902s] running install_data
+[0.902s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/ament_index
+[0.902s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/ament_index/resource_index
+[0.903s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/ament_index/resource_index/packages
+[0.903s] copying resource/dobot_control_panel -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/ament_index/resource_index/packages
+[0.904s] copying package.xml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel
+[0.904s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/resource
+[0.904s] copying resource/DobotControlPanel_layout.ui -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/resource
+[0.904s] copying plugin.xml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel
+[0.904s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[0.904s] copying resource/images/suction_cup.png -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[0.904s] copying resource/images/magician_gui_image.png -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[0.904s] copying resource/images/sliding_rail2.png -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[0.904s] copying resource/images/settings.png -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[0.904s] copying resource/images/info.png -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[0.905s] copying resource/images/blue_house.png -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[0.905s] copying resource/images/velocity.png -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[0.905s] copying resource/images/coordinate_system.png -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[0.905s] copying resource/images/gripper.png -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[0.905s] copying resource/images/estop.png -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[0.905s] copying resource/images/stop_rail.png -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[0.905s] copying resource/images/dobot_joints_system.png -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[0.905s] copying resource/images/cartesian_system.png -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[0.905s] running install_egg_info
+[0.905s] Copying ../../build/dobot_control_panel/dobot_control_panel.egg-info to /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel-1.0.0-py3.10.egg-info
+[0.906s] running install_scripts
+[0.919s] Installing dobot_control_panel script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/lib/dobot_control_panel
+[0.920s] writing list of installed files to '/home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/install.log'
+[0.940s] Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_control_panel' returned '0': PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_control_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_control_panel build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_control_panel/install.log --single-version-externally-managed install_data

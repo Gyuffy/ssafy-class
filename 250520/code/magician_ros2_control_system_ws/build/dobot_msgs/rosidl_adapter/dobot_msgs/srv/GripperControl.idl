@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs/srv/GripperControl.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "request fields")
+    struct GripperControl_Request {
+      string gripper_state;
+
+      boolean keep_compressor_running;
+    };
+    @verbatim (language="comment", text=
+      "response fields")
+    struct GripperControl_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

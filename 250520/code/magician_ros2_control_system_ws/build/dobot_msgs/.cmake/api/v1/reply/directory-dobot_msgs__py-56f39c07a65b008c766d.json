@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "dobot_msgs__py",
+		"source" : "/home/ssafy/magician_ros2_control_system_ws/build/dobot_msgs/dobot_msgs__py"
+	}
+}

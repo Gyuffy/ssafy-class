@@ -1,0 +1,6 @@
+[console_scripts]
+int_marker = dobot_visualization_tools.int_marker:main
+show_camera_FOV = dobot_visualization_tools.camera_range:main
+show_dobot_range = dobot_visualization_tools.dobot_range:main
+show_trajectory = dobot_visualization_tools.trajectory_markers:main
+

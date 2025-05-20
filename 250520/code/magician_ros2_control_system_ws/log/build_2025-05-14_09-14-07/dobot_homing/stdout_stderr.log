@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/dobot_homing/dobot_homing.egg-info
+writing ../../build/dobot_homing/dobot_homing.egg-info/PKG-INFO
+writing dependency_links to ../../build/dobot_homing/dobot_homing.egg-info/dependency_links.txt
+writing entry points to ../../build/dobot_homing/dobot_homing.egg-info/entry_points.txt
+writing requirements to ../../build/dobot_homing/dobot_homing.egg-info/requires.txt
+writing top-level names to ../../build/dobot_homing/dobot_homing.egg-info/top_level.txt
+writing manifest file '../../build/dobot_homing/dobot_homing.egg-info/SOURCES.txt'
+reading manifest file '../../build/dobot_homing/dobot_homing.egg-info/SOURCES.txt'
+writing manifest file '../../build/dobot_homing/dobot_homing.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/build
+creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/build/lib
+creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/build/lib/dobot_homing
+copying dobot_homing/homing_server.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/build/lib/dobot_homing
+copying dobot_homing/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/build/lib/dobot_homing
+running install
+running install_lib
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages/dobot_homing
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/build/lib/dobot_homing/homing_server.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages/dobot_homing
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/build/lib/dobot_homing/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages/dobot_homing
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages/dobot_homing/homing_server.py to homing_server.cpython-310.pyc
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages/dobot_homing/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/ament_index
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/ament_index/resource_index
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/ament_index/resource_index/packages
+copying resource/dobot_homing -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/ament_index/resource_index/packages
+copying package.xml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/dobot_homing
+copying launch/dobot_homing.launch.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/dobot_homing
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/dobot_homing/config
+copying config/homing_params.yaml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/dobot_homing/config
+running install_egg_info
+Copying ../../build/dobot_homing/dobot_homing.egg-info to /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages/dobot_homing-1.0.0-py3.10.egg-info
+running install_scripts
+Installing homing_server script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/dobot_homing
+writing list of installed files to '/home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/install.log'

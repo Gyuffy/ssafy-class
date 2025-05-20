@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/lecture/lecture.egg-info
+writing ../../build/lecture/lecture.egg-info/PKG-INFO
+writing dependency_links to ../../build/lecture/lecture.egg-info/dependency_links.txt
+writing entry points to ../../build/lecture/lecture.egg-info/entry_points.txt
+writing requirements to ../../build/lecture/lecture.egg-info/requires.txt
+writing top-level names to ../../build/lecture/lecture.egg-info/top_level.txt
+writing manifest file '../../build/lecture/lecture.egg-info/SOURCES.txt'
+reading manifest file '../../build/lecture/lecture.egg-info/SOURCES.txt'
+writing manifest file '../../build/lecture/lecture.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ssafy/to_ws/build/lecture/build
+creating /home/ssafy/to_ws/build/lecture/build/lib
+creating /home/ssafy/to_ws/build/lecture/build/lib/lecture
+copying lecture/__init__.py -> /home/ssafy/to_ws/build/lecture/build/lib/lecture
+running install
+running install_lib
+creating /home/ssafy/to_ws/install/lecture/lib/python3.10/site-packages/lecture
+copying /home/ssafy/to_ws/build/lecture/build/lib/lecture/__init__.py -> /home/ssafy/to_ws/install/lecture/lib/python3.10/site-packages/lecture
+byte-compiling /home/ssafy/to_ws/install/lecture/lib/python3.10/site-packages/lecture/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ssafy/to_ws/install/lecture/share/ament_index
+creating /home/ssafy/to_ws/install/lecture/share/ament_index/resource_index
+creating /home/ssafy/to_ws/install/lecture/share/ament_index/resource_index/packages
+copying resource/lecture -> /home/ssafy/to_ws/install/lecture/share/ament_index/resource_index/packages
+copying package.xml -> /home/ssafy/to_ws/install/lecture/share/lecture
+running install_egg_info
+Copying ../../build/lecture/lecture.egg-info to /home/ssafy/to_ws/install/lecture/lib/python3.10/site-packages/lecture-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ssafy/to_ws/build/lecture/install.log'

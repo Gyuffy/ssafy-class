@@ -1,0 +1,41 @@
+[1.390s] Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_end_effector': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_end_effector build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/install.log --single-version-externally-managed install_data
+[1.540s] running egg_info
+[1.540s] creating ../../build/dobot_end_effector/dobot_end_effector.egg-info
+[1.540s] writing ../../build/dobot_end_effector/dobot_end_effector.egg-info/PKG-INFO
+[1.540s] writing dependency_links to ../../build/dobot_end_effector/dobot_end_effector.egg-info/dependency_links.txt
+[1.541s] writing entry points to ../../build/dobot_end_effector/dobot_end_effector.egg-info/entry_points.txt
+[1.550s] writing requirements to ../../build/dobot_end_effector/dobot_end_effector.egg-info/requires.txt
+[1.550s] writing top-level names to ../../build/dobot_end_effector/dobot_end_effector.egg-info/top_level.txt
+[1.550s] writing manifest file '../../build/dobot_end_effector/dobot_end_effector.egg-info/SOURCES.txt'
+[1.551s] reading manifest file '../../build/dobot_end_effector/dobot_end_effector.egg-info/SOURCES.txt'
+[1.552s] writing manifest file '../../build/dobot_end_effector/dobot_end_effector.egg-info/SOURCES.txt'
+[1.552s] running build
+[1.552s] running build_py
+[1.552s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/build
+[1.552s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/build/lib
+[1.553s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/build/lib/dobot_end_effector
+[1.553s] copying dobot_end_effector/gripper_server.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/build/lib/dobot_end_effector
+[1.553s] copying dobot_end_effector/suction_cup_server.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/build/lib/dobot_end_effector
+[1.553s] copying dobot_end_effector/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/build/lib/dobot_end_effector
+[1.553s] running install
+[1.553s] running install_lib
+[1.553s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/lib/python3.10/site-packages/dobot_end_effector
+[1.554s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/build/lib/dobot_end_effector/gripper_server.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/lib/python3.10/site-packages/dobot_end_effector
+[1.554s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/build/lib/dobot_end_effector/suction_cup_server.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/lib/python3.10/site-packages/dobot_end_effector
+[1.554s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/build/lib/dobot_end_effector/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/lib/python3.10/site-packages/dobot_end_effector
+[1.555s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/lib/python3.10/site-packages/dobot_end_effector/gripper_server.py to gripper_server.cpython-310.pyc
+[1.556s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/lib/python3.10/site-packages/dobot_end_effector/suction_cup_server.py to suction_cup_server.cpython-310.pyc
+[1.556s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/lib/python3.10/site-packages/dobot_end_effector/__init__.py to __init__.cpython-310.pyc
+[1.556s] running install_data
+[1.556s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/share/ament_index
+[1.556s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/share/ament_index/resource_index
+[1.557s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/share/ament_index/resource_index/packages
+[1.557s] copying resource/dobot_end_effector -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/share/ament_index/resource_index/packages
+[1.557s] copying package.xml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/share/dobot_end_effector
+[1.558s] running install_egg_info
+[1.562s] Copying ../../build/dobot_end_effector/dobot_end_effector.egg-info to /home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/lib/python3.10/site-packages/dobot_end_effector-1.0.0-py3.10.egg-info
+[1.563s] running install_scripts
+[1.575s] Installing gripper_server script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/lib/dobot_end_effector
+[1.575s] Installing suction_cup_server script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/lib/dobot_end_effector
+[1.575s] writing list of installed files to '/home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/install.log'
+[1.601s] Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_end_effector' returned '0': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_end_effector/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_end_effector build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_end_effector/install.log --single-version-externally-managed install_data

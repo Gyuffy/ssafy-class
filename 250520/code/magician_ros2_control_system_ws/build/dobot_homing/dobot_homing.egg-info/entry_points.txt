@@ -1,0 +1,3 @@
+[console_scripts]
+homing_server = dobot_homing.homing_server:main
+

@@ -1,0 +1,21 @@
+[2.635s] Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_homing': PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_homing build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/install.log --single-version-externally-managed install_data
+[2.942s] running egg_info
+[2.945s] writing ../../build/dobot_homing/dobot_homing.egg-info/PKG-INFO
+[2.945s] writing dependency_links to ../../build/dobot_homing/dobot_homing.egg-info/dependency_links.txt
+[2.945s] writing entry points to ../../build/dobot_homing/dobot_homing.egg-info/entry_points.txt
+[2.946s] writing requirements to ../../build/dobot_homing/dobot_homing.egg-info/requires.txt
+[2.946s] writing top-level names to ../../build/dobot_homing/dobot_homing.egg-info/top_level.txt
+[2.950s] reading manifest file '../../build/dobot_homing/dobot_homing.egg-info/SOURCES.txt'
+[2.950s] writing manifest file '../../build/dobot_homing/dobot_homing.egg-info/SOURCES.txt'
+[2.950s] running build
+[2.951s] running build_py
+[2.951s] running install
+[2.951s] running install_lib
+[2.951s] running install_data
+[2.951s] running install_egg_info
+[2.951s] removing '/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages/dobot_homing-1.0.0-py3.10.egg-info' (and everything under it)
+[2.953s] Copying ../../build/dobot_homing/dobot_homing.egg-info to /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages/dobot_homing-1.0.0-py3.10.egg-info
+[2.953s] running install_scripts
+[2.978s] Installing homing_server script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/dobot_homing
+[2.979s] writing list of installed files to '/home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/install.log'
+[3.011s] Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_homing' returned '0': PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_homing build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/install.log --single-version-externally-managed install_data

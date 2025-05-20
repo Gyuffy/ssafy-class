@@ -1,0 +1,54 @@
+running egg_info
+creating ../../build/dobot_kinematics/dobot_kinematics.egg-info
+writing ../../build/dobot_kinematics/dobot_kinematics.egg-info/PKG-INFO
+writing dependency_links to ../../build/dobot_kinematics/dobot_kinematics.egg-info/dependency_links.txt
+writing entry points to ../../build/dobot_kinematics/dobot_kinematics.egg-info/entry_points.txt
+writing requirements to ../../build/dobot_kinematics/dobot_kinematics.egg-info/requires.txt
+writing top-level names to ../../build/dobot_kinematics/dobot_kinematics.egg-info/top_level.txt
+writing manifest file '../../build/dobot_kinematics/dobot_kinematics.egg-info/SOURCES.txt'
+reading manifest file '../../build/dobot_kinematics/dobot_kinematics.egg-info/SOURCES.txt'
+writing manifest file '../../build/dobot_kinematics/dobot_kinematics.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build
+creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build/lib
+creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build/lib/dobot_kinematics
+copying dobot_kinematics/dobot_forward_kin.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build/lib/dobot_kinematics
+copying dobot_kinematics/collision_utils.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build/lib/dobot_kinematics
+copying dobot_kinematics/dobot_inv_kin.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build/lib/dobot_kinematics
+copying dobot_kinematics/trajectory_validator_client.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build/lib/dobot_kinematics
+copying dobot_kinematics/collision_detection_server.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build/lib/dobot_kinematics
+copying dobot_kinematics/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build/lib/dobot_kinematics
+copying dobot_kinematics/trajectory_validator_server.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build/lib/dobot_kinematics
+running install
+running install_lib
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build/lib/dobot_kinematics/dobot_forward_kin.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build/lib/dobot_kinematics/collision_utils.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build/lib/dobot_kinematics/dobot_inv_kin.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build/lib/dobot_kinematics/trajectory_validator_client.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build/lib/dobot_kinematics/collision_detection_server.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build/lib/dobot_kinematics/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/build/lib/dobot_kinematics/trajectory_validator_server.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics/dobot_forward_kin.py to dobot_forward_kin.cpython-310.pyc
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics/collision_utils.py to collision_utils.cpython-310.pyc
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics/dobot_inv_kin.py to dobot_inv_kin.cpython-310.pyc
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics/trajectory_validator_client.py to trajectory_validator_client.cpython-310.pyc
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics/collision_detection_server.py to collision_detection_server.cpython-310.pyc
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics/trajectory_validator_server.py to trajectory_validator_server.cpython-310.pyc
+running install_data
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/share/ament_index
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/share/ament_index/resource_index
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/share/ament_index/resource_index/packages
+copying resource/dobot_kinematics -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/share/ament_index/resource_index/packages
+copying package.xml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/share/dobot_kinematics
+copying launch/dobot_validate_trajectory.launch.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/share/dobot_kinematics
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/share/dobot_kinematics/config
+copying config/axis_limits.yaml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/share/dobot_kinematics/config
+running install_egg_info
+Copying ../../build/dobot_kinematics/dobot_kinematics.egg-info to /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics-1.0.0-py3.10.egg-info
+running install_scripts
+Installing trajectory_validator_client script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/dobot_kinematics
+Installing trajectory_validator_server script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_kinematics/lib/dobot_kinematics
+writing list of installed files to '/home/ssafy/magician_ros2_control_system_ws/build/dobot_kinematics/install.log'

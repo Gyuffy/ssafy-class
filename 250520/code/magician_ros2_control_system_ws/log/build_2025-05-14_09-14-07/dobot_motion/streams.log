@@ -1,0 +1,49 @@
+[1.558s] Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_motion': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_motion build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/install.log --single-version-externally-managed install_data
+[1.698s] running egg_info
+[1.698s] creating ../../build/dobot_motion/dobot_motion.egg-info
+[1.698s] writing ../../build/dobot_motion/dobot_motion.egg-info/PKG-INFO
+[1.698s] writing dependency_links to ../../build/dobot_motion/dobot_motion.egg-info/dependency_links.txt
+[1.698s] writing entry points to ../../build/dobot_motion/dobot_motion.egg-info/entry_points.txt
+[1.698s] writing requirements to ../../build/dobot_motion/dobot_motion.egg-info/requires.txt
+[1.698s] writing top-level names to ../../build/dobot_motion/dobot_motion.egg-info/top_level.txt
+[1.698s] writing manifest file '../../build/dobot_motion/dobot_motion.egg-info/SOURCES.txt'
+[1.699s] reading manifest file '../../build/dobot_motion/dobot_motion.egg-info/SOURCES.txt'
+[1.700s] writing manifest file '../../build/dobot_motion/dobot_motion.egg-info/SOURCES.txt'
+[1.700s] running build
+[1.700s] running build_py
+[1.700s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build
+[1.700s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build/lib
+[1.700s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build/lib/dobot_motion
+[1.700s] copying dobot_motion/PTP_params_class.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build/lib/dobot_motion
+[1.701s] copying dobot_motion/sliding_rail_server.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build/lib/dobot_motion
+[1.701s] copying dobot_motion/PTP_server.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build/lib/dobot_motion
+[1.701s] copying dobot_motion/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build/lib/dobot_motion
+[1.701s] running install
+[1.701s] running install_lib
+[1.701s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion
+[1.701s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build/lib/dobot_motion/PTP_params_class.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion
+[1.701s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build/lib/dobot_motion/sliding_rail_server.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion
+[1.701s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build/lib/dobot_motion/PTP_server.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion
+[1.701s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build/lib/dobot_motion/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion
+[1.701s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion/PTP_params_class.py to PTP_params_class.cpython-310.pyc
+[1.702s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion/sliding_rail_server.py to sliding_rail_server.cpython-310.pyc
+[1.703s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion/PTP_server.py to PTP_server.cpython-310.pyc
+[1.704s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion/__init__.py to __init__.cpython-310.pyc
+[1.704s] running install_data
+[1.704s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/ament_index
+[1.704s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/ament_index/resource_index
+[1.704s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/ament_index/resource_index/packages
+[1.704s] copying resource/dobot_motion -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/ament_index/resource_index/packages
+[1.704s] copying package.xml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion
+[1.704s] copying launch/dobot_PTP.launch.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion
+[1.705s] copying launch/dobot_rail.launch.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion
+[1.705s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion/config
+[1.705s] copying config/PTP_motion_params.yaml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion/config
+[1.705s] copying config/sliding_rail_params.yaml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/share/dobot_motion/config
+[1.705s] running install_egg_info
+[1.706s] Copying ../../build/dobot_motion/dobot_motion.egg-info to /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages/dobot_motion-1.0.0-py3.10.egg-info
+[1.706s] running install_scripts
+[1.719s] Installing PTP_server script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/dobot_motion
+[1.719s] Installing sliding_rail_server script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/dobot_motion
+[1.719s] writing list of installed files to '/home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/install.log'
+[1.733s] Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_motion' returned '0': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_motion/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_motion build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_motion/install.log --single-version-externally-managed install_data

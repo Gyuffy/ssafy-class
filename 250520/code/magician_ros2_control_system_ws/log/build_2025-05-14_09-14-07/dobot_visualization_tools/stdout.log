@@ -1,0 +1,50 @@
+running egg_info
+creating ../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info
+writing ../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/PKG-INFO
+writing dependency_links to ../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/dependency_links.txt
+writing entry points to ../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/entry_points.txt
+writing requirements to ../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/requires.txt
+writing top-level names to ../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/top_level.txt
+writing manifest file '../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/SOURCES.txt'
+reading manifest file '../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/SOURCES.txt'
+writing manifest file '../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools/build
+creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools/build/lib
+creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools
+copying dobot_visualization_tools/camera_range.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools
+copying dobot_visualization_tools/int_marker.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools
+copying dobot_visualization_tools/dobot_range.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools
+copying dobot_visualization_tools/trajectory_markers.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools
+copying dobot_visualization_tools/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools
+running install
+running install_lib
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools/camera_range.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools/int_marker.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools/dobot_range.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools/trajectory_markers.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools
+copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools/build/lib/dobot_visualization_tools/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools/camera_range.py to camera_range.cpython-310.pyc
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools/int_marker.py to int_marker.cpython-310.pyc
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools/dobot_range.py to dobot_range.cpython-310.pyc
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools/trajectory_markers.py to trajectory_markers.cpython-310.pyc
+byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/share/ament_index
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/share/ament_index/resource_index
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/share/ament_index/resource_index/packages
+copying resource/dobot_visualization_tools -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/share/ament_index/resource_index/packages
+copying package.xml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/share/dobot_visualization_tools
+creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/dae_models
+copying dae_models/dobot_range.dae -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/dae_models
+copying dae_models/realsense_FOV.dae -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/share/dobot_visualization_tools/dae_models
+running install_egg_info
+Copying ../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info to /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools-1.0.0-py3.10.egg-info
+running install_scripts
+Installing int_marker script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib/dobot_visualization_tools
+Installing show_camera_FOV script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib/dobot_visualization_tools
+Installing show_dobot_range script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib/dobot_visualization_tools
+Installing show_trajectory script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_visualization_tools/lib/dobot_visualization_tools
+writing list of installed files to '/home/ssafy/magician_ros2_control_system_ws/build/dobot_visualization_tools/install.log'

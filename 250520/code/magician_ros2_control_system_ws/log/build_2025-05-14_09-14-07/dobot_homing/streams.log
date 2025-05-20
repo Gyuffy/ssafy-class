@@ -1,0 +1,40 @@
+[1.414s] Invoking command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_homing': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_homing build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/install.log --single-version-externally-managed install_data
+[1.562s] running egg_info
+[1.562s] creating ../../build/dobot_homing/dobot_homing.egg-info
+[1.562s] writing ../../build/dobot_homing/dobot_homing.egg-info/PKG-INFO
+[1.563s] writing dependency_links to ../../build/dobot_homing/dobot_homing.egg-info/dependency_links.txt
+[1.563s] writing entry points to ../../build/dobot_homing/dobot_homing.egg-info/entry_points.txt
+[1.563s] writing requirements to ../../build/dobot_homing/dobot_homing.egg-info/requires.txt
+[1.563s] writing top-level names to ../../build/dobot_homing/dobot_homing.egg-info/top_level.txt
+[1.563s] writing manifest file '../../build/dobot_homing/dobot_homing.egg-info/SOURCES.txt'
+[1.563s] reading manifest file '../../build/dobot_homing/dobot_homing.egg-info/SOURCES.txt'
+[1.564s] writing manifest file '../../build/dobot_homing/dobot_homing.egg-info/SOURCES.txt'
+[1.564s] running build
+[1.564s] running build_py
+[1.564s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/build
+[1.564s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/build/lib
+[1.564s] creating /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/build/lib/dobot_homing
+[1.564s] copying dobot_homing/homing_server.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/build/lib/dobot_homing
+[1.564s] copying dobot_homing/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/build/lib/dobot_homing
+[1.565s] running install
+[1.565s] running install_lib
+[1.566s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages/dobot_homing
+[1.566s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/build/lib/dobot_homing/homing_server.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages/dobot_homing
+[1.566s] copying /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/build/lib/dobot_homing/__init__.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages/dobot_homing
+[1.566s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages/dobot_homing/homing_server.py to homing_server.cpython-310.pyc
+[1.567s] byte-compiling /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages/dobot_homing/__init__.py to __init__.cpython-310.pyc
+[1.567s] running install_data
+[1.567s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/ament_index
+[1.567s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/ament_index/resource_index
+[1.567s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/ament_index/resource_index/packages
+[1.567s] copying resource/dobot_homing -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/ament_index/resource_index/packages
+[1.567s] copying package.xml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/dobot_homing
+[1.567s] copying launch/dobot_homing.launch.py -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/dobot_homing
+[1.567s] creating /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/dobot_homing/config
+[1.567s] copying config/homing_params.yaml -> /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/share/dobot_homing/config
+[1.567s] running install_egg_info
+[1.569s] Copying ../../build/dobot_homing/dobot_homing.egg-info to /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages/dobot_homing-1.0.0-py3.10.egg-info
+[1.569s] running install_scripts
+[1.574s] Installing homing_server script to /home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/dobot_homing
+[1.575s] writing list of installed files to '/home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/install.log'
+[1.611s] Invoked command in '/home/ssafy/magician_ros2_control_system_ws/src/dobot_homing' returned '0': AMENT_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/magician_ros2_control_system_ws/install/dobot_homing/lib/python3.10/site-packages:/home/ssafy/magician_ros2_control_system_ws/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_homing build --build-base /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/build install --record /home/ssafy/magician_ros2_control_system_ws/build/dobot_homing/install.log --single-version-externally-managed install_data

@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs/srv/EvaluatePTPTrajectory.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs {
+  module srv {
+    typedef double double__4[4];
+    @verbatim (language="comment", text=
+      "request fields")
+    struct EvaluatePTPTrajectory_Request {
+      double__4 target;
+
+      uint8 motion_type;
+    };
+    @verbatim (language="comment", text=
+      "response fields")
+    struct EvaluatePTPTrajectory_Response {
+      boolean is_valid;
+
+      @verbatim (language="comment", text=
+        "if it is not feasible then why")
+      string message;
+    };
+  };
+};

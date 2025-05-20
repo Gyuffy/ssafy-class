@@ -1,0 +1,4 @@
+[console_scripts]
+trajectory_validator_client = dobot_kinematics.trajectory_validator_client:main
+trajectory_validator_server = dobot_kinematics.trajectory_validator_server:main
+
